@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <p class="general-text">
+    <titulo_cap_texto>Bases</titulo_cap_texto>
+    <imagem>
+      <imagem>&lt;F001-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Lavadeiras utilizavam o sabão de cinzas para a limpeza de suas roupas. </p>
+    <p class="img-credit">Coleção particular </p>
+    <p class="quote">Os compostos saponáceos são indispensáveis na salubridade da sociedade, pois são os agentes principais nos processos de remoção de óleos, gorduras e microrganismos. Conforme uma lenda romana, supostamente no Monte Sapo (que dá origem ao nome sabão), restos de gordura de animais queimados em fogueiras se misturavam às cinzas alcalinas de madeira e, quando chovia, a reação resultava no sabão de cinzas. Ele escorria ao longo da beira argilosa do rio Tibre, onde lavadeiras usavam-no e comprovaram sua eficácia na limpeza [...]. Ao longo do tempo, a experimentação popular aperfeiçoou os sabões produzidos ao acaso, revelando um significativo avanço histórico no combate e prevenção de doenças, e passou a ser objeto de interesse político e econômico no contexto da revolução francesa, em que a síntese de hidróxido de sódio permitiu a substituição da produção artesanal de sabão de cinzas pela produção industrial de sabão de soda. [...] </p>
+    <p class="quote-source">
+      MASSI, L.; JUNIOR, C. S. L. &#8220;Produção de Sabão no Assentamento Rural Monte Alegre: Aspectos Didáticos, Sociais e Ambientais.&#8221;
+      <i>Química Nova na Escola</i>
+      , Vol. 41, N° 2, p. 124-132, maio 2019. Disponível em: &lt;http://qnesc.sbq.org.br/online/qnesc41_2/03-QS-66-18.png&gt;. Acesso em: 4 ago. 2021.
+      <exercicios_linhas></exercicios_linhas>
+   </p>
+    <texto_bullets>
+      &#8226;	Ao realizarmos o teste de Arrhenius, o brilho gerado em uma lâmpada quando se utiliza uma solução de NaOH é igual ao gerado por uma solução de Mg(OH)
+      <sub>2</sub>
+      ?
+    </texto_bullets>
+    <texto_bullets>
+      &#8226;	Quais são o nome e a fórmula do íon característico de uma base?
+      <exercicios_linhas></exercicios_linhas>
+    </texto_bullets>
+    <boxe_02_texto> Neste capítulo, serão abordadas as habilidades EM13CNT201, EM13CNT205 e EM13CNT307. </boxe_02_texto>
+     <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">	Definição de base </h3>
+                        </div>
+    <p class="general-text">
+      Segundo Arrhenius, bases são compostos iônicos que, em solução aquosa, dissociam-se, gerando como ânion o íon OH
+      <sub></sub>
+      <sub>&#8211;</sub>
+      (íon hidroxila). São classificadas como soluções eletrolíticas por apresentarem íons livres em solução aquosa.
+   </p>
+    <p class="general-text">
+      Uma substância básica também é conhecida como
+      <i>álcalis</i>
+      , palavra originada do árabe
+      <i>al-qali</i>
+      , que significa &#8220;cinza de plantas&#8221;, mistura rica em substâncias de propriedades básicas.
+   </p>
+    <p class="general-text">
+      Para montar a fórmula geral de uma base, por se tratar de um composto iônico, o cátion é colocado na frente do ânion. Todas as bases apresentam metais como cátion, exceto o hidróxido de amônio (NH
+      <sub></sub>
+      <sub>4</sub>
+      OH), que é a única base formada apenas por ametais. Utilizaremos a &#8220;
+      <b>regra do escorregador</b>
+      &#8221; estudada nos compostos iônicos para montarmos a fórmula geral de uma base, uma vez que a montagem é feita a partir das cargas de seus íons.
+   </p>
+    <boxe_17>
+      <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+      <boxe_17_texto>
+        O
+        <b>ânion hidroxila</b>
+        sempre apresenta
+        <b>carga 21</b>
+        .
+      </boxe_17_texto>
+      <boxe_17_texto>O oxigênio contém seis elétrons na camada de valência e realiza uma ligação covalente simples com o hidrogênio, faltando ainda mais uma ligação para ele completar o octeto. </boxe_17_texto>
+      <imagem>
+        <imagem>&lt;I002-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+        <boxe_02_texto href="file:////Users/macmini/Desktop/sergio/Poliedro/Lumen/V3/p7/em_2022_v3_qui_fb_u1_cap3_082a090_p5%20Folder/Links/I002-2020-EM-QUI-1%e2%94%ac%c2%ac-FB-L2-U5-C16.eps"></boxe_02_texto>
+      </imagem>
+    </boxe_17>
+    <imagem>
+      <imagem>&lt;I001-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <p class="general-text">Toda vez que a carga do metal for diferente de 1, colocaremos a hidroxila entre parênteses e o número que representa a carga do cátion para fora desses parênteses. Veja a seguir alguns exemplos de dissociação de bases:</p>
+    <p class="general-text">
+      NaOH(s)
+      <imagem>&lt;QB_C16_003.png&gt;</imagem>
+      Na
+      <sub>+</sub>
+      (aq)
+      <simbolos>+</simbolos>
+      OH
+      <sub>&#8211;</sub>
+      (aq)
+   </p>
+    <p class="general-text">
+      Mg(OH)
+      <sub>2</sub>
+      (s)
+      <imagem>&lt;QB_C16_004.png&gt;</imagem>
+      Mg
+      <sub>2+</sub>
+      (aq)
+      <simbolos>+</simbolos>
+      2 OH
+      <sub>&#8211;</sub>
+      (aq)
+   </p>
+    <p class="general-text">
+      A
+      <simbolos>&#8467;</simbolos>
+      (OH)
+      <sub>3</sub>
+      (s)
+      <imagem>&lt;QB_C16_005.png&gt;</imagem>
+      A
+      <simbolos>&#8467;</simbolos>
+      <sub>3+</sub>
+      (aq)
+      <simbolos>+</simbolos>
+      3 OH
+      <sub>&#8211;</sub>
+      (aq)
+   </p>
+    <p class="general-text">
+      Sn(OH)
+      <sub>4</sub>
+      (s)
+      <imagem>&lt;QB_C16_006.png&gt;</imagem>
+      Sn
+      <sub>4+</sub>
+      (aq)
+      <simbolos>+</simbolos>
+      4 OH
+      <sub>&#8211;</sub>
+      (aq)
+   </p>
+    <p class="general-text">
+      NH
+      <sub>4</sub>
+      OH(aq)
+      <imagem>&lt;QB_C16_007.png&gt;</imagem>
+      NH
+      <sub>4</sub>
+      <sub>+</sub>
+      (aq)
+      <simbolos>+</simbolos>
+      OH
+      <sub>&#8211;</sub>
+      (aq)
+   </p>
+     <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">	Classificação das bases </h3>
+                        </div>
+    <p class="general-text">As bases podem ser classificadas de acordo com alguns critérios. Na sequência, vamos estudar alguns deles.</p>
+    <h3 class="titulo2">Quanto ao número de hidroxilas </h3>
+                        </div>
+    <p class="general-text">Diferentemente do que ocorria nos ácidos, todas as hidroxilas das bases são dissociáveis. Assim, teremos:</p>
+    <texto_bullets>
+      <b>&#8226;	Monobases: </b>
+      bases com 1 OH
+      <sub>&#8211;</sub>
+      . Exemplos: NaOH, NH
+      <sub>4</sub>
+      OH.
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Dibases:</b>
+      bases com 2 OH
+      <sub>&#8211;</sub>
+      . Exemplos: Mg(OH)
+      <sub>2</sub>
+      , Ca(OH)
+      <sub>2. </sub>
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Tribases: </b>
+      bases com 3 OH
+      <sub>&#8211;</sub>
+      . Exemplos: A
+      <simbolos>&#8467;</simbolos>
+      (OH)
+      <sub>3</sub>
+      , Fe(OH)
+      <sub>3.</sub>
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Tetrabases: </b>
+      bases com 4 OH
+      <sub>&#8211;</sub>
+      . Exemplos: Sn(OH)
+      <sub>4</sub>
+      , Pb(OH)
+      <sub>4. </sub>
+    </texto_bullets>
+    <h3 class="titulo2">Quanto à solubilidade em água </h3>
+                        </div>
+    <p class="general-text">De acordo com a solubilidade em água, as bases podem ser classificadas em:</p>
+    <texto_bullets>
+      <b>&#8226;	Solúveis: </b>
+      bases formadas por cátions dos metais da família IA ou pelo íon amônio (NH
+      <sub>4</sub>
+      <sub>+</sub>
+      ).
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Parcialmente solúveis: </b>
+      bases formadas pelos metais da família IIA (exceto Be e Mg, que são insolúveis).
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Insolúveis: </b>
+      bases formadas pelos demais metais presentes na tabela periódica.
+    </texto_bullets>
+    <h3 class="titulo2">Quanto à força </h3>
+                        </div>
+    <p class="general-text">
+      A força de uma base, assim como a dos ácidos, está relacionada com sua capacidade de sofrer dissociação. Assim, podemos quantificar a força de uma base ao acharmos a razão entre o número de moléculas que de fato dissociaram e o número de moléculas inicial, o que gera como resposta o grau de dissociação da base, representado pela letra grega alfa (
+      <simbolos>a</simbolos>
+      ).
+   </p>
+    <imagem>
+      <Story>
+        <imagem>&lt;QB_C16_008.png&gt;</imagem>
+        <texto_geral href="file:///D:/Trabalhos/TEC/00_Poliedro/Quimica/V3/Todos%20os%20arquivos%202021-09-30%20em%2018_46__Cap_8/QB_C16_008.eps"></p>
+      </Story>
+    </imagem>
+    <secao_exercicio></secao_exercicio>
+    <p class="general-text">
+      Sendo:
+      <imagem>&lt;QB_C16_009.png&gt;</imagem>
+   </p>
+    <p class="general-text"></p>
+    <p class="general-text">No entanto, podemos classificar a força de uma base de maneira qualitativa, sem calcularmos seu grau de dissociação. Para isso, existem algumas regras práticas:</p>
+    <texto_bullets>
+      <b>&#8226;	Fortes:</b>
+      são bases com elevado grau de dissociação, pois os íons que dissolvem se dissociam bem, e são formadas pelos metais das famílias IA e IIA (exceto Be e Mg, que formam bases fracas). Exemplos: NaOH, KOH, Ca(OH)
+      <sub>2</sub>
+      .
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Fracas: </b>
+      são bases com baixo grau de dissociação, pois os íons que dissolvem se dissociam mal, e são formadas pelos demais metais presentes na tabela periódica, incluindo o NH
+      <sub>4</sub>
+      OH. Exemplos: CuOH, A
+      <simbolos>&#8467;</simbolos>
+      (OH)
+      <sub>3</sub>
+      , Pb(OH)
+      <sub>4</sub>
+      .
+    </texto_bullets>
+    <h3 class="titulo2">Quanto à volatilidade </h3>
+                        </div>
+    <p class="general-text">A volatilidade, estudada no capítulo 2 (em que tratamos dos ácidos), é a capacidade que uma substância tem de evaporar. Assim, quanto mais volátil ela for, menor será sua temperatura de ebulição e maior será sua pressão de vapor. </p>
+    <p class="general-text">
+      A única base classificada como volátil é o hidróxido de amônio (NH
+      <sub>4</sub>
+      OH), pois a
+      <b>amônia</b>
+      (NH
+      <sub>3</sub>
+      ) sofre ionização ao ser dissolvida em água, produzindo o íon hidroxila. O íon NH
+      <sub>4</sub>
+      <sub>+</sub>
+      é denominado
+      <b>amônio</b>
+      . O hidróxido de amônio somente existe em solução aquosa.
+   </p>
+    <imagem></imagem>
+    <p class="general-text"></p>
+     <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">	Nomenclatura </h3>
+                        </div>
+    <p class="general-text">A nomenclatura das bases apresenta regras bem definidas. Em uma ligação iônica, há cátions metálicos que sempre apresentam a mesma carga; no entanto, alguns deles (na maioria, de metais de transição) apresentam cargas variáveis, e a regra do octeto não se aplica para explicar essas cargas. </p>
+    <h3 class="titulo2">Para cátions com carga fixa </h3>
+                        </div>
+    <p class="general-text">Quando os cátions apresentam carga fixa, ela não é mencionada no nome da base. A carga representa o número de elétrons que o elemento químico tem na camada de valência e essa carga pode ser obtida consultando a família na qual ele está localizado na tabela periódica ou realizando a distribuição eletrônica de acordo com o Diagrama de Linus Pauling. </p>
+    <boxe_17>
+      <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+      <boxe_17_texto>
+        O
+        <b>cátion amônio</b>
+        sempre apresenta
+        <b>carga 11</b>
+        .
+      </boxe_17_texto>
+      <boxe_17_texto>
+        O nitrogênio apresenta cinco elétrons na camada de valência e realiza três ligações covalentes simples com três hidrogênios e uma coordenada com um hidrogênio; como a coordenada representa um par de elétrons compartilhado e o hidrogênio só precisaria receber um elétron para ele completar o octeto, a carga é
+        <simbolos>+</simbolos>
+        1.
+      </boxe_17_texto>
+      <imagem>
+        <imagem>&lt;I003-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+        <boxe_02_texto href="file:////Users/macmini/Desktop/sergio/Poliedro/Lumen/V3/p7/em_2022_v3_qui_fb_u1_cap3_082a090_p5%20Folder/Links/I003-2020-EM-QUI-1%e2%94%ac%c2%ac-FB-L2-U5-C16.eps"></boxe_02_texto>
+      </imagem>
+    </boxe_17>
+    <texto_dialogo>
+      <p class="general-text">
+        Hidróxido de
+        <simbolos>+</simbolos>
+        nome do elemento químico
+     </p>
+    </texto_dialogo>
+    <p class="general-text">NaOH: hidróxido de sódio</p>
+    <p class="general-text">KOH: hidróxido de potássio</p>
+    <p class="general-text">
+      Ca(OH)
+      <sub>2</sub>
+      : hidróxido de cálcio
+   </p>
+    <p class="general-text">
+      Mg(OH)
+      <sub>2</sub>
+      : hidróxido de magnésio
+   </p>
+    <p class="general-text">
+      A
+      <simbolos>&#8467;</simbolos>
+      (OH)
+      <sub>3</sub>
+      : hidróxido de alumínio
+   </p>
+    <p class="general-text">
+      NH
+      <sub>4</sub>
+      OH: hidróxido de amônio
+   </p>
+    <p class="general-text">AgOH: hidróxido de prata</p>
+    <p class="general-text">
+      Zn(OH)
+      <sub>2</sub>
+      : hidróxido de zinco
+   </p>
+    <p class="general-text">
+      Cd(OH)
+      <sub>2</sub>
+      : hidróxido de cádmio
+   </p>
+    <h3 class="titulo2">Para cátions com carga variável </h3>
+                        </div>
+    <p class="general-text">Quando os cátions apresentam carga variável, esta deve ser mencionada no nome da base de acordo com uma das maneiras a seguir:</p>
+    <p class="general-text"></p>
+    <texto_dialogo>
+      <p class="general-text">
+        Hidróxido de
+        <simbolos>+</simbolos>
+        nome do elemento químico
+        <simbolos>+</simbolos>
+        carga em algarismo romano
+     </p>
+      <p class="general-text">OU</p>
+      <p class="general-text">
+        Hidróxido
+        <simbolos>+</simbolos>
+        nome do elemento químico
+        <simbolos>+</simbolos>
+        sufixo
+        <imagem>
+          <imagem>&lt;QB_C16_019.png&gt;</imagem>
+        </imagem>
+     </p>
+    </texto_dialogo>
+    <p class="general-text"></p>
+    <p class="general-text">
+      Vamos utilizar como exemplo o cátion de ferro. Ele apresenta carga variável:
+      <simbolos>+</simbolos>
+      2 (menor valor de carga) e
+      <simbolos>+</simbolos>
+      3 (maior valor de carga). Assim, temos as seguintes bases que podem ser formadas:
+   </p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      Fe(OH)
+      <sub>2</sub>
+      : hidróxido de ferro(II) ou hidróxido ferroso
+   </p>
+    <p class="general-text">
+      Fe(OH)
+      <sub>3</sub>
+      : hidróxido de ferro(III) ou hidróxido férrico
+   </p>
+    <p class="general-text">Outros exemplos de bases formadas por cátions com carga variável:</p>
+    <p class="general-text">
+      CuOH: hidróxido de cobre(I) ou hidróxido cuproso (Cu
+      <simbolos>=</simbolos>
+      <i>cuprum</i>
+      em latim)
+   </p>
+    <p class="general-text">
+      Cu(OH)
+      <sub>2</sub>
+      : hidróxido de cobre(II) ou hidróxido cúprico
+   </p>
+    <p class="general-text">
+      AuOH: hidróxido de ouro(I) ou hidróxido auroso (Au
+      <simbolos>=</simbolos>
+      <i>aurum</i>
+      em latim)
+   </p>
+    <p class="general-text">
+      Au(OH)
+      <sub>3</sub>
+      : hidróxido de ouro(III) ou hidróxido áurico
+   </p>
+    <p class="general-text">
+      Sn(OH)
+      <sub>2</sub>
+      : hidróxido de estanho(II) ou hidróxido estanoso
+   </p>
+    <p class="general-text">
+      Sn(OH)
+      <sub>4</sub>
+      : hidróxido de estanho(IV) ou hidróxido estânico
+   </p>
+    <p class="general-text">
+      Pb(OH)
+      <sub>2</sub>
+      : hidróxido de chumbo(II) ou hidróxido plumboso (Pb
+      <simbolos>=</simbolos>
+      <i>plumbum</i>
+      em latim)
+   </p>
+    <p class="general-text">
+      Pb(OH)
+      <sub>4</sub>
+      : hidróxido de chumbo(IV) ou hidróxido plúmbico
+   </p>
+    <p class="general-text">
+      Hg
+      <sub>2</sub>
+      (OH)
+      <sub>2</sub>
+      : hidróxido de mercúrio(I) ou hidróxido mercuroso
+   </p>
+    <p class="general-text">
+      Hg(OH)
+      <sub>2</sub>
+      : hidróxido de mercúrio(II) ou hidróxido mercúrico
+   </p>
+    <boxe_08>
+      <boxe_08_titulo1>Em Biologia, vemos que... </boxe_08_titulo1>
+      <boxe_08_texto>...excretas é a designação biológica empregada aos resíduos nitrogenados produzidos pelo metabolismo, devendo ser eliminados a fim de permitir um estado de equilíbrio interno (homeostase) do organismo [...]O tipo de excreção de uma dessas substâncias tóxicas está diretamente relacionado com a quantidade de água disponível na composição corpórea de cada ser vivo, como também associado ao ambiente onde ele habita. </boxe_08_texto>
+      <boxe_08_texto>Classificação quanto ao tipo de excreta: </boxe_08_texto>
+      <boxe_08_texto>
+        Amoniotélicos (animais que excretam amônia)
+        <simbolos>&#10141;</simbolos>
+
+        essa substância é extremamente tóxica aos organismos, sendo a alta solubilidade em água uma propriedade química considerável durante a evolução, principalmente dos invertebrados aquáticos e peixes ósseos. 
+      </boxe_08_texto>
+      <boxe_08_texto>
+        Ureotélicos (animais que excretam ureia)
+        <simbolos>&#10141;</simbolos>
+
+        substância solúvel em água, contudo menos tóxica que a amônia. Sintetizada no fígado dos vertebrados a partir da reação da amônia e o gás carbônico, representa uma estratégia adaptativa de certos animais terrestres: os anelídeos, os peixes cartilaginosos [tubarão e raia], os anfíbios [na fase adulta, pois na fase de girino excretam amônia, uma vez que vivem na água] e os mamíferos.
+      </boxe_08_texto>
+      <boxe_08_texto>
+        Uricotélicos (animais que excretam ácido úrico)
+        <simbolos>&#10141;</simbolos>
+
+        substância de toxicidade baixa e insolúvel em água, [...] utilizada pelos insetos, répteis e aves.
+      </boxe_08_texto>
+      <p class="quote-source">RIBEIRO, Krukembergue Divino Kirk da Fonseca. &#8220;Os tipos de excretas&#8221;. Mundo educação. Disponível em: &lt;https://mundoeducacao.bol.uol.com.br/biologia/os-tipos-excretas.htm&gt;. Acesso em: 14 jul. 2021.</p>
+    </boxe_08>
+    <p class="general-text">Na tabela a seguir, encontramos os elementos químicos com carga variável:</p>
+    <p class="general-text">
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="16" aid:tcols="5">
+        <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="5" aid:ccolwidth="313.7007874015748">
+          <Tabela_gravata1>Elementos QUÍMICOS com carga variável</Tabela_gravata1>
+        </TABELA_GRAVATA1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_gravata2>Monovalentes</tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_gravata2>Bivalentes</tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_gravata2>Trivalentes</tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_gravata2>Tetravalentes</tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_gravata2>Pentavalentes</tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Cu
+            <sub>+</sub>
+            cuproso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Cu
+            <sub>2+</sub>
+            cúprico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            (Hg
+            <sub>2</sub>
+            )
+            <sub>2+</sub>
+            mercuroso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Hg
+            <sub>2+</sub>
+            mercúrico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Mn
+            <sub>2+</sub>
+            manganoso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Mn
+            <sub>3+</sub>
+            manganês (III)
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>
+            Mn
+            <sub>4+</sub>
+            mangânico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Cr
+            <sub>2+</sub>
+            cromoso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Cr
+            <sub>3+</sub>
+            crômico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Fe
+            <sub>2+</sub>
+            ferroso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Fe
+            <sub>3+</sub>
+            férrico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Co
+            <sub>2+</sub>
+            cobaltoso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Co
+            <sub>3+</sub>
+            cobáltico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Ni
+            <sub>2+</sub>
+            niqueloso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Ni
+            <sub>3+</sub>
+            niquélico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Sn
+            <sub>2+</sub>
+            estanoso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>
+            Sn
+            <sub>4+</sub>
+            estânico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Pb
+            <sub>2+</sub>
+            plumboso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>
+            Pb
+            <sub>4+</sub>
+            plúmbico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Pt
+            <sub>2+</sub>
+            platinoso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>
+            Pt
+            <sub>4+</sub>
+            platânico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>
+            Ti
+            <sub>2+</sub>
+            titanoso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>
+            Ti
+            <sub>4+</sub>
+            titânico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Au
+            <sub>+</sub>
+            auroso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Au
+            <sub>3+</sub>
+            áurico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            As
+            <sub>3+</sub>
+            arsenioso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>
+            As
+            <sub>5+</sub>
+            arsênico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.55616874855996">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="66.23594338101492">
+          <tabela_texto_geral>
+            Sb
+            <sub>3+</sub>
+            antimonioso
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.71628143259699">
+          <tabela_texto_geral>&#8211;</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="57.95645045838804">
+          <tabela_texto_geral>
+            Sb
+            <sub>5+</sub>
+            antimônico
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+      </Table>
+   </p>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="2">
+      <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="312.4448818897637">
+        <Tabela_gravata1>
+          <p class="general-text">
+            <b>Hidróxido de sódio (soda cáustica) &#8211; NaOH</b>
+         </p>
+        </Tabela_gravata1>
+      </TABELA_GRAVATA1>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="160.72621014097925">
+        <tabela_texto_geral>
+          <imagem>&lt;F002-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+        </tabela_texto_geral>
+        <p class="img-subtitle">A soda cáustica é utilizada como matéria-prima na fabricação de sabão. </p>
+        <p class="img-credit">LeoPatrizi/iStockphoto.com</p>
+      </tabela_texto_geral>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="151.71867174878443">
+        <texto_bullets>&#8226;	Utilizada como matéria-prima na fabricação de sabão.  </texto_bullets>
+        <texto_bullets>&#8226;	Utilizada para desentupir pias e vasos sanitários, sendo encontrada em supermercados com o nome de &#8220;diabo verde&#8221;.</texto_bullets>
+      </tabela_texto_geral>
+    </Table>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="2">
+      <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="312.4448818897637">
+        <Tabela_gravata1>
+          <p class="general-text">
+            <b>Hidróxido de cálcio (cal apagada, extinta ou hidratada) &#8211; Ca(OH)</b>
+         </p>
+          <sub>2</sub>
+        </Tabela_gravata1>
+      </TABELA_GRAVATA1>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="160.72621014097925">
+        <tabela_texto_geral>
+          <imagem>&lt;F003-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+        </tabela_texto_geral>
+        <p class="img-subtitle">A pintura branca presente nos troncos das árvores contém cal apagada, substância alcalina usada para combater a proliferação de fungos. </p>
+        <p class="img-credit">RomanovRV/Shutterstock.com</p>
+      </tabela_texto_geral>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="151.71867174878443">
+        <texto_bullets>&#8226;	Utilizada como argamassa na construção civil.  </texto_bullets>
+        <texto_bullets>&#8226;	Utilizada para corrigir a acidez do solo e na caiação de paredes, calçadas e troncos de árvores.</texto_bullets>
+      </tabela_texto_geral>
+    </Table>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="2">
+      <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="312.4448818897637">
+        <Tabela_gravata1>
+          <p class="general-text">
+            <b>Hidróxido de magnésio (leite de magnésia) &#8211; Mg(OH)</b>
+         </p>
+          <sub>2</sub>
+        </Tabela_gravata1>
+      </TABELA_GRAVATA1>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="160.72621014097925">
+        <imagem>&lt;F004-2020-EM-QUI-1-FB-L2-U5-C16.png&gt; </imagem>
+        <p class="img-subtitle">O leite de magnésia é utilizado como antiácido estomacal. </p>
+        <p class="img-credit">Jayjued/Shutterstock.com</p>
+      </tabela_texto_geral>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="151.71867174878443">
+        <texto_bullets>&#8226;	Utilizado como antiácido estomacal, evitando a azia. </texto_bullets>
+        <texto_bullets>&#8226;	Utilizado como laxante.</texto_bullets>
+      </tabela_texto_geral>
+    </Table>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="2">
+      <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="312.4448818897637">
+        <Tabela_gravata1>
+          <p class="general-text">
+            <b>Hidróxido de alumínio &#8211; AL(OH)</b>
+         </p>
+          <sub>3</sub>
+        </Tabela_gravata1>
+      </TABELA_GRAVATA1>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="160.72621014097925">
+        <imagem>&lt;F005-2020-EM-QUI-1-FB-L2-U5-C16.png&gt; </imagem>
+        <tabela_texto_geral></tabela_texto_geral>
+        <p class="img-subtitle">Em estações de tratamento de água, utiliza-se hidróxido de alumínio como agente floculador. Por ser uma base praticamente insolúvel em água, as impurezas presentes aderem aos flocos, ocorrendo deposição dos sólidos no fundo do tanque. </p>
+        <p class="img-credit">Panupol Netkhun/Shutterstock.com</p>
+      </tabela_texto_geral>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="151.71867174878443">
+        <texto_bullets>&#8226;	Utilizado em estações de tratamento de água como floculador. </texto_bullets>
+        <texto_bullets>&#8226;	Utilizado como componente de antiácidos estomacais.</texto_bullets>
+      </tabela_texto_geral>
+    </Table>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="2">
+      <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="312.4448818897637">
+        <Tabela_gravata1>
+          <p class="general-text">
+            <b>Hidróxido de amônio &#8211; NH</b>
+            <sub>4</sub>
+            <b>OH</b>
+         </p>
+        </Tabela_gravata1>
+      </TABELA_GRAVATA1>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="160.72621014097925">
+        <imagem>
+          <imagem>&lt;F006-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+        </imagem>
+        <p class="img-subtitle">Produtos de limpeza à base de hidróxido de amônio podem ser usados como desengordurantes. </p>
+        <p class="img-credit">Angelo Cordeschi/Shutterstock.com</p>
+      </tabela_texto_geral>
+      <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="151.71867174878443">
+        <texto_bullets>&#8226;	Utilizado na produção de ácido nítrico para a produção de fertilizantes e explosivos. </texto_bullets>
+        <texto_bullets>&#8226;	Utilizado em desinfetantes para limpeza doméstica.</texto_bullets>
+      </tabela_texto_geral>
+    </Table>
+     <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">	Aplicações no cotidiano </h3>
+                        </div>
+    <p class="general-text">A seguir, temos exemplos de aplicações de algumas bases estudadas:</p>
+     <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">	Escala de pH </h3>
+                        </div>
+    <p class="general-text">Sabemos que o suco de limão, o suco de tomate, o suco de laranja, o cafezinho e o vinagre são exemplos de substâncias ácidas; porém, você saberia dizer qual delas é a mais ácida?</p>
+    <p class="general-text">O grau de acidez ou basicidade de uma solução pode ser expresso por meio da escala de pH (potencial hidrogeniônico), que será estudada com detalhes na terceira série do Ensino Médio. Por ora, vamos explorá-la, na figura a seguir, para termos uma noção do grau de acidez/basicidade de uma solução.</p>
+    <imagem>
+      <imagem>&lt;I004-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Escala de pH com exemplos de aplicação em cada valor. </p>
+    <p class="general-text">
+      A escala varia de 0 a 14 a 25
+      <simbolos>°</simbolos>
+      C, sendo que as soluções ácidas apresentam pH 
+      <simbolos>&lt;</simbolos>
+       7, as soluções neutras apresentam pH
+      <simbolos>=</simbolos>
+      7, e as soluções básicas, pH
+      <simbolos>&gt;</simbolos>
+      7. Quanto mais próximo de um valor extremo da escala, mais intenso é o caráter daquele meio. Por exemplo, um suco de limão (pH
+      <simbolos>=</simbolos>
+      2) tem maior acidez que um suco de tomate (pH
+      <simbolos>=</simbolos>
+      4).
+   </p>
+    <imagem>
+      <imagem>&lt;F007-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">O pHmetro é um aparelho utilizado para medir o pH. </p>
+    <p class="img-credit">tonaquatici/iStockphoto.com </p>
+    <imagem>
+      <imagem>&lt;F008-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Papel indicador universal utilizado para medir o pH por comparação com a escala de referência. </p>
+    <p class="img-credit">deyangeorgiev/iStockphoto.com </p>
+    <p class="general-text">A medida exata do pH é realizada por meio de um aparelho eletrônico digital chamado pHmetro (lê-se &#8220;peagômetro&#8221;), representado na figura ao lado. Pode-se utilizar ainda o papel indicador universal, uma tira que é mergulhada na solução de interesse de cálculo do pH e comparada com uma escala colorida de referência para se ter ideia do pH da solução.</p>
+    <p class="general-text">
+      Medir o pH de soluções é algo muito comum em diversas aplicações práticas, como em análises da qualidade da água presente nas piscinas, em procedimentos de controle de qualidade ambiental de rios, em diversos procedimentos utilizados na agronomia e no controle de qualidade de alimentos e produtos de limpeza. Nas piscinas, é comum o uso de
+      <i>kits</i>
+      que medem a quantidade de cloro e o pH da piscina. A quantidade de cloro é medida em uma grandeza conhecida como parte por milhão (ppm) e é utilizado o reagente orto-tolidina; para analisar o pH, é utilizado o reagente vermelho fenol.
+   </p>
+    <imagem>
+      <imagem>&lt;lumen_2022_1s_l1_mat_fa_u1_cap1_&lt;F003.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">
+      <i>Kit</i>
+      utilizado em piscinas para medir o teor de cloro e o pH da água.
+    </p>
+    <p class="img-credit">Sirirak/iStockphoto.com </p>
+     <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">	Indicadores ácido-base </h3>
+                        </div>
+    <p class="general-text">Indicadores são substâncias que indicam o caráter do meio (ácido, básico ou neutro) por meio da mudança de coloração. Eles podem ser caseiros (como o extrato de repolho roxo, plantas de flores &#8211; como hortênsias &#8211;, vinho tinto, vinagre etc.) ou laboratoriais (papel de tornassol, fenolftaleína, azul de bromotimol etc.), sendo os laboratoriais mais precisos do que os caseiros.</p>
+    <p class="general-text">
+      No laboratório, quando uma solução muda de cor, dizemos que ela atingiu seu
+      <b>ponto de viragem</b>
+      . Esse ponto varia de acordo com o indicador utilizado. A fenolftaleína, por exemplo, apresenta ponto de viragem entre o pH 8 e 10; já o azul de bromotimol, entre o pH 6,2 e 7,6.
+   </p>
+    <p class="general-text">No quadro a seguir, podemos verificar a cor característica de cada indicador quando presente em meio ácido, básico e neutro:</p>
+    <boxe_02_titulo1>
+      <boxe_02>MAIS</boxe_02>
+      <boxe_02_titulo2>Sangue do diabo (tinta que desaparece &#8211; EXPERIÊNCIA QUÍMICA), Manual do mundo. </boxe_02_titulo2>
+      <boxe_02_texto>
+        O vídeo mostra como fazer a experiência chamada &#8220;sangue do diabo&#8221;, que envolve uma base &#8211; o NH
+        <sub>4</sub>
+        OH. Trata-se de uma forma divertida de colocar em prática o que estudamos até agora sobre as bases inorgânicas.
+      </boxe_02_texto>
+      <boxe_02_texto>Disponível em: </boxe_02_texto>
+      <boxe_02_texto>&lt;https://www.youtube.com/embed/ </boxe_02_texto>
+      <boxe_02_texto>q4D1Q3eGHXk&gt;. Acesso em: 4 ago. 2021.</boxe_02_texto>
+    </boxe_02_titulo1>
+    <p class="general-text">
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="8" aid:tcols="4">
+        <TABELA_GRAVATA1 aid:table="cell" aid:crows="1" aid:ccols="4" aid:ccolwidth="313.2283464566929">
+          <Tabela_gravata1>
+            <Tabela_gravata1>Indicadores &#8211; coloração característica em diferentes meios</Tabela_gravata1>
+          </Tabela_gravata1>
+        </TABELA_GRAVATA1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_gravata2>
+            <b>Indicador</b>
+          </tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_gravata2>
+            <b>Ácido </b>
+          </tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_gravata2>
+            <b>Neutro</b>
+          </tabela_gravata2>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_gravata2>
+            <b>Básico</b>
+          </tabela_gravata2>
+        </tabela_texto_geral>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_texto_geral>Alaranjado de metila</tabela_texto_geral>
+        </Cell>
+        <Cell_vermelho aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_texto_geral>vermelho</tabela_texto_geral>
+        </Cell_vermelho>
+        <Cell_laranja aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_texto_geral>laranja</tabela_texto_geral>
+        </Cell_laranja>
+        <Cell_amarelo aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>amarelo</tabela_texto_geral>
+        </Cell_amarelo>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_texto_geral>Azul de bromotimol</tabela_texto_geral>
+        </Cell>
+        <Cell_amarelo aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_texto_geral>amarelo</tabela_texto_geral>
+        </Cell_amarelo>
+        <Cell_verde aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_texto_geral>verde</tabela_texto_geral>
+        </Cell_verde>
+        <Cell_azul aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>azul</tabela_texto_geral>
+        </Cell_azul>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_texto_geral>Fenolftaleína</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_texto_geral>incolor</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_texto_geral>incolor</tabela_texto_geral>
+        </Cell>
+        <Cell_rosa aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>rosa</tabela_texto_geral>
+        </Cell_rosa>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_texto_geral>Repolho roxo (extrato)</tabela_texto_geral>
+        </Cell>
+        <Cell_vermelho aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_texto_geral>vermelho</tabela_texto_geral>
+        </Cell_vermelho>
+        <Cell_roxo aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_texto_geral>roxo</tabela_texto_geral>
+        </Cell_roxo>
+        <Cell_verde aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>verde</tabela_texto_geral>
+        </Cell_verde>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_texto_geral>Tornassol (papel)</tabela_texto_geral>
+        </Cell>
+        <Cell_vermelho aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_texto_geral>vermelho</tabela_texto_geral>
+        </Cell_vermelho>
+        <Cell_roxo_claro aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_texto_geral>roxo claro</tabela_texto_geral>
+        </Cell_roxo_claro>
+        <Cell_azul aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>azul</tabela_texto_geral>
+        </Cell_azul>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="116.22047244094489">
+          <tabela_texto_geral>Azaleia (flor)</tabela_texto_geral>
+        </Cell>
+        <Cell_vermelho aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">
+          <tabela_texto_geral>vermelho</tabela_texto_geral>
+        </Cell_vermelho>
+        <Cell_rosa aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.944881889763785">
+          <tabela_texto_geral>rosa</tabela_texto_geral>
+        </Cell_rosa>
+        <Cell_azul aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>azul</tabela_texto_geral>
+        </Cell_azul>
+      </Table>
+      <exercicios_linhas></exercicios_linhas>
+   </p>
+    <exercicios_linhas></exercicios_linhas>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_enunciado>
+        1
+        <b>Ulbra-RS 2016</b>
+        No capítulo Recreações Químicas, Sacks descreve suas primeiras incursões na experimentação química, como no texto abaixo.
+      </exercicio_enunciado>
+      <p class="quote">O livro começava com Experimentos Elementares, usando tintas vegetais para vermos como mudavam de cor na presença de ácidos e álcalis. A tinta vegetal mais comum era o tornassol, retirado de um líquen [...]. Usei papéis de tornassol que meu pai tinha em sua farmácia, e vi que se tornavam vermelhos com diferentes ácidos e azuis com amônia alcalina. </p>
+      <p class="quote-source">
+        (SACKS, O.
+        <i>Tio Tungstênio: Memórias de uma infância química</i>
+        . São Paulo: Cia. das Letras, 2002).
+     </p>
+      <exercicio_enunciado>O uso de tornassol ainda é bastante comum nas aulas de Química. Testando os seguintes sistemas: </exercicio_enunciado>
+      <item_lista>
+        <texto_geral_exercicio></texto_geral_exercicio>
+        <b>I.	</b>
+        solução aquosa de CH
+        <sub>3</sub>
+        COOH
+        <b>II.	</b>
+        solução aquosa de CH
+        <sub>3</sub>
+        NH
+        <sub>2 </sub>
+        <b>III.	</b>
+        solução aquosa de NaOH
+        <b>IV.	</b>
+        solução aquosa contendo CO
+        <sub>2</sub>
+        dissolvido
+        <b>V.	</b>
+        solução aquosa de H
+        <sub>2</sub>
+        SO
+        <sub>4</sub>
+      </item_lista>
+      <exercicio_enunciado>A cor resultante do papel tornassol será, respectivamente:  </exercicio_enunciado>
+      <texto_geral_exercicio></texto_geral_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Azul; azul; vermelho; vermelho; azul.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Vermelho; vermelho; azul; vermelho; azul.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Vermelho; vermelho; vermelho; azul; vermelho.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Azul; azul; azul; vermelho; vermelho.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Vermelho; azul; azul; vermelho; vermelho.
+      </item_lista>
+      <h3 class="titulo3">
+        <b>Resolução:</b>
+      </h3>
+                        </div>
+      <exercicio_resolvido>Alternativa e </exercicio_resolvido>
+      <exercicio_resolvido>As soluções I (ácido acético), IV (dióxido de carbono) e V (ácido sulfúrico) são compostos que apresentam caráter ácido; portanto, o papel de tornassol ficará vermelho. Vale lembrar que o ácido carbônico é instável e se decompõe em água e dióxido de carbono. </exercicio_resolvido>
+      <exercicio_resolvido>
+        As soluções II e III, metanoamina e hidróxido de sódio, são compostos que apresentam caráter básico; portanto, o papel de tornassol ficará azul. A metanoamina é um composto orgânico que deriva da amônia (NH
+        <sub>3</sub>
+        ), que, em solução aquosa, produz a base NH
+        <sub>4</sub>
+        OH.
+      </exercicio_resolvido>
+    </secao_01>
+    <secao_02>
+      <secao_02_titulo1>
+        <secao_15_titulo1>Aplicando conhecimentos</secao_15_titulo1>
+      </secao_02_titulo1>
+      <exercicio_enunciado>
+        <secao_02_titulo1></secao_02_titulo1>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        Segundo Arrhenius, o que são bases?
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        Escreva a equação da reação de dissociação para as bases, nomeie-as e classifique-as quanto à força e à solubilidade.
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        KOH
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Ca(OH)
+        <sub>2 </sub>
+        <exercicios_linhas></exercicios_linhas>
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Fe(OH)
+        <sub>3  </sub>
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Pb(OH)
+        <sub>4  </sub>
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        Apenas uma base é classificada como volátil. Escreva a fórmula dessa base, seu nome e a equação da sua reação de ionização.
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        Em uma aula de laboratório, foi realizado um experimento visando testar a condutividade elétrica de duas bases: hidróxido de sódio (conhecida como soda cáustica) e hidróxido de magnésio (conhecida como leite de magnésia). O professor utilizou um dispositivo para medição da condutividade como o mostrado a seguir.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;lumen_2021_2S_L3_QUI_&lt;F002.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        <secao_exercicio>Para isso, foram adicionados a dois béqueres 100 mL de água a 20 ºC e, em cada um, 5 g de cada uma das bases. </secao_exercicio>
+        <secao_exercicio>O brilho observado na lâmpada foi diferente, apesar dos dois testes terem sido realizados com bases. Como pode ser justificado o resultado observado?</secao_exercicio>
+      </exercicio_enunciado>
+    </secao_02>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        <b>Cefet-MG 2020</b>
+        Em um frasco contendo água, foi colocado, cuidadosamente, uma pequena porção de sódio (Na) metálico. Durante a reação, observou-se a liberação de um gás inflamável e a formação de uma substância que coloriu uma solução de fenolftaleína. Sobre o experimento, é INCORRETO afirmar que
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        o gás liberado foi o O
+        <sub>2</sub>
+        .
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        a substância produzida é iônica.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        a solução final pode ser neutralizada com um ácido.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        a solução adquiriu coloração rósea após adição de fenolftaleína.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>UFJF-MG 2019 </b>
+        As reações ácido-base são reações importantes pelas suas inúmeras aplicações. Por exemplo, pessoas que sofrem com acidez estomacal são beneficiadas diariamente por este tipo de reação química. Evidentemente, excessos podem ser prejudiciais. Várias preparações farmacêuticas de antiácidos incluem as bases hidróxido de magnésio e hidróxido de alumínio para diminuir o excesso de ácido clorídrico do estômago. Baseado neste texto, responda:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        Dê a fórmula química de todos os compostos inorgânicos citados no texto.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        Soluções aquosas destes compostos conduzem eletricidade? Justifique.
+      </secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>PUC-MG 2016</b>
+        Considere as seguintes afirmativas:
+      </exercicio_enunciado>
+      <exercicio_item_romano>
+        <b>I.	</b>
+        Ácidos de Arrhenius são conhecidos por liberar íons H
+        <sub>+</sub>
+        em solução aquosa.
+        <b>II.	</b>
+        Bases de Arrhenius são espécies capazes de liberar íons OH
+        <sub>&#8211;</sub>
+        em água.
+        <b>III.	</b>
+        O ácido sulfúrico 98% é um ótimo condutor de eletricidade.
+        <b>IV.	</b>
+        Quanto maior o grau de ionização de um ácido, maior será sua força.
+      </exercicio_item_romano>
+      <exercicio_enunciado>
+        Dentre as afirmativas, são
+        <b>CORRETAS</b>
+        apenas:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        I, II e IV
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        II e IV
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        II, III e IV
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        I e II
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        Leia o texto a seguir e responda aos subitens.
+      </exercicio_enunciado>
+      <secao_titulo_citado>Fiscalização interdita frigorífico após acidente com vazamento de amônia </secao_titulo_citado>
+      <secao_texto_citado>
+        A Prefeitura de Porto Ferreira (SP) interditou nesta terça-feira (21) o frigorífico Porto Aves por falta de documentos de segurança. Um vazamento de amônia (NH
+        <sub>3</sub>
+        ) no local provocou a intoxicação de 15 funcionários na manhã de segunda-feira (20). [...]
+      </secao_texto_citado>
+      <secao_texto_citado>[O funcionário Adilson Ferreira] disse que não é a primeira vez que esse tipo de acidente acontece e que todos trabalham sem equipamentos de proteção. &#8220;Eu acho que deveria ter umas máscaras lá dentro porque é um lugar que tem gás tóxico&#8221;. [...] </secao_texto_citado>
+      <secao_texto_citado>O acidente aconteceu na sala de máquinas durante um procedimento corriqueiro, informou o gerente da empresa. &#8220;Foi resolvido de imediato, mas a amônia leva alguns minutos para dissipar. Por segurança, evacuamos toda a área e dispensamos os funcionários&#8221; [...] </secao_texto_citado>
+      <p class="quote-source">
+        &#8220;Fiscalização interdita frigorífico após acidente com vazamento de amônia&#8221;.
+        <i>EPTV</i>
+        , 21 jan. 2014. Disponível em: &lt;http://g1.globo.com/sp/sao-carlos-regiao/noticia/2014/01/fiscalizacao-interdita-frigorifico-apos-acidente-com-vazamento-de-amonia.html&gt;. Acesso em: 14 jul. 2021.
+     </p>
+      <item_lista>
+        <b>a)	</b>
+        A substância descrita no texto nas condições ambientes correntes é encontrada em estado gasoso, mas, quando dissolvida em água, apresenta caráter básico. Justifique o caráter básico da amônia com o auxílio de uma equação química.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Represente a fórmula eletrônica para a substância gasosa mencionada no texto.
+      </item_lista>
+      <secao_exercicio>Dados: </secao_exercicio>
+      <imagem>
+        <imagem>&lt;I006-2020-EM-QUI-1-FB-L2-U5-C16.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        <secao_exercicio></secao_exercicio>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>UEG-GO</b>
+      </exercicio_enunciado>
+      <secao_titulo_citado>Sangue de mentirinha! </secao_titulo_citado>
+      <secao_texto_citado>De tanto assistir a filmes de terror, ou mesmo a filmes de ação, nos quais o mocinho tem sempre que apanhar primeiro, cabe sempre uma constatação e ao mesmo tempo uma pergunta: &#8220;Nossa, quanto sangue!&#8221;. É claro, tudo é de mentirinha, mas, na maioria das vezes (quando não há efeitos especiais), os diretores de filmes recorrem ao velho truque do sangue de mentirinha </secao_texto_citado>
+      <secao_texto_citado>
+        Uma forma de fazê-lo, sem manchar roupas, é medir 6 mL de água e 1 mL de detergente com amoníaco (amônia) e adicionar, com um conta-gotas, de 2 a 3 gotas de fenolftaleína, e colocar a solução num frasco de
+        <i>spray</i>
+        (do tipo desodorante). Ao borrifar a mistura num tecido branco, ele fica imediatamente manchado de vermelho. Aos poucos a mancha desaparece.
+      </secao_texto_citado>
+      <p class="quote-source">Disponível em: &lt;http://www.geocities.com/CollegePark/Bookstore/2334/ sangue.html-adaptado&gt;. Acesso em: 21 ago. 2007. [Adaptado.]</p>
+      <item_lista>
+        <b>a)	</b>
+        Escreva a equação química que descreve o processo, explicando o fenômeno relatado.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Explique o que ocorreria se a peça de roupa em questão fosse lavada com sabão sem antes ser lavada somente com água.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>Imed-RS 2016</b>
+        Considerando o indicador de pH fenolftaleína, assinale a alternativa correta.
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        Esse indicador, na presença de uma solução ácida, torna-se róseo.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        A faixa de viragem da fenolftaleína e do azul de bromotimol é a mesma.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Em pH 1, o indicador torna-se róseo.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Em pH 10, o indicador torna-se incolor, a mesma coloração do indicador tornassol.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Em pH 8, o indicador torna-se róseo.
+      </item_lista>
+    </secao_03>
+ </p>
+  <imagem>&lt;QB_C16_010.png&gt;</imagem>
+</Root>

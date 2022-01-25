@@ -1,0 +1,2512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body-book">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    3
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Bases
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/F001-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">Lavadeiras utilizavam o sabão de cinzas para a limpeza de suas roupas.
+                        </p>
+                        <p class="img-credit">
+                            Coleção particular
+                        </p>
+                        <p class="quote">Os compostos saponáceos são indispensáveis na salubridade da sociedade, pois são os agentes principais nos processos de remoção de óleos, gorduras e microrganismos. Conforme uma lenda romana, supostamente no Monte Sapo (que dá
+                            origem ao nome sabão), restos de gordura de animais queimados em fogueiras se misturavam às cinzas alcalinas de madeira e, quando chovia, a reação resultava no sabão de cinzas. Ele escorria ao longo da beira argilosa do rio
+                            Tibre, onde lavadeiras usavam-no e comprovaram sua eficácia na limpeza [...]. Ao longo do tempo, a experimentação popular aperfeiçoou os sabões produzidos ao acaso, revelando um significativo avanço histórico no combate e prevenção
+                            de doenças, e passou a ser objeto de interesse político e econômico no contexto da revolução francesa, em que a síntese de hidróxido de sódio permitiu a substituição da produção artesanal de sabão de cinzas pela produção industrial
+                            de sabão de soda. [...] </p>
+                        <p class="quote-source">
+                            MASSI, L.; JUNIOR, C. S. L. &#8220;Produção de Sabão no Assentamento Rural Monte Alegre: Aspectos Didáticos, Sociais e Ambientais.&#8221;
+                            <i>Química Nova na Escola</i> , Vol. 41, N° 2, p. 124-132, maio 2019. Disponível em: &lt;http://qnesc.sbq.org.br/online/qnesc41_2/03-QS-66-18.png&gt;. Acesso em: 4 ago. 2021.
+                        </p>
+
+
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Ao realizarmos o teste de Arrhenius, o brilho gerado em uma lâmpada quando se utiliza uma solução de NaOH é igual ao gerado por uma solução de Mg(OH)
+                                    <sub>2</sub> ?
+                                </li>
+                                <li class="general-text">
+                                    Quais são o nome e a fórmula do íon característico de uma base?
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT201
+                                </span> ,
+                                <span class='boxe-06-texto'>
+                                  EM13CNT205
+                                </span>.e<span class='boxe-06-texto'>
+                                  EM13CNT307
+                                </span>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Definição de base </h3>
+                        </div>
+                        <p class="general-text">
+                            Segundo Arrhenius, bases são compostos iônicos que, em solução aquosa, dissociam-se, gerando como ânion o íon OH
+                            <sub>&#8211;</sub> (íon hidroxila). São classificadas como soluções eletrolíticas por apresentarem íons livres em solução aquosa.
+                        </p>
+                        <p class="general-text">
+                            Uma substância básica também é conhecida como
+                            <i>álcalis</i> , palavra originada do árabe
+                            <i>al-qali</i> , que significa &#8220;cinza de plantas&#8221;, mistura rica em substâncias de propriedades básicas.
+                        </p>
+                        <p class="general-text">
+                            Para montar a fórmula geral de uma base, por se tratar de um composto iônico, o cátion é colocado na frente do ânion. Todas as bases apresentam metais como cátion, exceto o hidróxido de amônio (NH
+                            <sub>4</sub> OH), que é a única base formada apenas por ametais. Utilizaremos a &#8220;
+                            <b>regra do escorregador</b> &#8221; estudada nos compostos iônicos para montarmos a fórmula geral de uma base, uma vez que a montagem é feita a partir das cargas de seus íons.
+                        </p>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-1' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-1' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+
+                                            <p class='chapter-description general-text'>
+                                                O
+                                                <b>ânion hidroxila</b> sempre apresenta
+                                                <b>carga 21</b> .
+                                            </p>
+                                            <p class="chapter-description general-text">O oxigênio contém seis elétrons na camada de valência e realiza uma ligação covalente simples com o hidrogênio, faltando ainda mais uma ligação para ele completar o octeto. </p>
+                                            <img src="./assets/img/I002-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./assets/img/I001-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+
+                        <p class="general-text">Toda vez que a carga do metal for diferente de 1, colocaremos a hidroxila entre parênteses e o número que representa a carga do cátion para fora desses parênteses. Veja a seguir alguns exemplos de dissociação de bases:</p>
+                        <p class="general-text">
+                            NaOH(s)
+                            <img src="./assets/img/QB_C16_003.png" alt="imagem" class="img-littlee2"> Na
+                            <sub>+</sub> (aq)
+                            <simbolos>+</simbolos>
+                            OH
+                            <sub>&#8211;</sub> (aq)
+                        </p>
+                        <p class="general-text">
+                            Mg(OH)
+                            <sub>2</sub> (s)
+                            <img src="./assets/img/QB_C16_003.png" alt="imagem" class="img-littlee2"> Mg
+                            <sub>2+</sub> (aq)
+                            <simbolos>+</simbolos>
+                            2 OH
+                            <sub>&#8211;</sub> (aq)
+                        </p>
+                        <p class="general-text">
+                            A
+                            <simbolos>&#8467;</simbolos>
+                            (OH)
+                            <sub>3</sub> (s)
+                            <img src="./assets/img/QB_C16_003.png" alt="imagem" class="img-littlee2"> A
+                            <simbolos>&#8467;</simbolos>
+                            <sub>3+</sub> (aq)
+                            <simbolos>+</simbolos>
+                            3 OH
+                            <sub>&#8211;</sub> (aq)
+                        </p>
+                        <p class="general-text">
+                            Sn(OH)
+                            <sub>4</sub> (s)
+                            <img src="./assets/img/QB_C16_003.png" alt="imagem" class="img-littlee2"> Sn
+                            <sub>4+</sub> (aq)
+                            <simbolos>+</simbolos>
+                            4 OH
+                            <sub>&#8211;</sub> (aq)
+                        </p>
+                        <p class="general-text">
+                            NH
+                            <sub>4</sub> OH(aq)
+                            <img src="./assets/img/QB_C16_003.png" alt="imagem" class="img-littlee2"> NH
+                            <sub>4</sub>
+                            <sub>+</sub> (aq)
+                            <simbolos>+</simbolos>
+                            OH
+                            <sub>&#8211;</sub> (aq)
+                        </p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Classificação das bases </h3>
+                        </div>
+                        <p class="general-text">As bases podem ser classificadas de acordo com alguns critérios. Na sequência, vamos estudar alguns deles.</p>
+                        <h3 class="titulo2">Quanto ao número de hidroxilas </h3>
+                        <p class="general-text">Diferentemente do que ocorria nos ácidos, todas as hidroxilas das bases são dissociáveis. Assim, teremos:</p>
+                        <ul class="questao-alternativas ml">
+                            <li><b>Monobases: </b>bases com 1 OH
+                                <sub>&#8211;</sub> . Exemplos: NaOH, NH
+                                <sub>4</sub> OH.
+                            </li>
+                            <li><b>Dibases:</b>bases com 2 OH
+                                <sub>&#8211;</sub> . Exemplos: Mg(OH)
+                                <sub>2</sub> , Ca(OH)
+                                <sub>2. </sub></li>
+                            <li><b>Tribases: </b>bases com 3 OH
+                                <sub>&#8211;</sub> . Exemplos: A
+                                <simbolos>&#8467;</simbolos>
+                                (OH)
+                                <sub>3</sub> , Fe(OH)
+                                <sub>3.</sub></li>
+                            <li><b>Tetrabases: </b> bases com 4 OH
+                                <sub>&#8211;</sub> . Exemplos: Sn(OH)
+                                <sub>4</sub> , Pb(OH)
+                                <sub>4. </sub></li>
+                        </ul>
+                        <h3 class="titulo2">Quanto à solubilidade em água </h3>
+                        <p class="general-text">De acordo com a solubilidade em água, as bases podem ser classificadas em:</p>
+                        <ul class="questao-alternativas">
+                            <li><b>	Solúveis: </b>bases formadas por cátions dos metais da família IA ou pelo íon amônio (NH
+                                <sub>4</sub>
+                                <sub>+</sub> ).
+                            </li>
+                            <li><b>Parcialmente solúveis:</b>bases formadas pelos metais da família IIA (exceto Be e Mg, que são insolúveis).</li>
+                            <li><b>Insolúveis: </b>bases formadas pelos demais metais presentes na tabela periódica.</li>
+                        </ul>
+                        <h3 class="titulo2">Quanto à força </h3>
+                        <p class="general-text">
+                            A força de uma base, assim como a dos ácidos, está relacionada com sua capacidade de sofrer dissociação. Assim, podemos quantificar a força de uma base ao acharmos a razão entre o número de moléculas que de fato dissociaram e o número de moléculas inicial,
+                            o que gera como resposta o grau de dissociação da base, representado pela letra grega alfa (
+                            <simbolos>a</simbolos>
+                            ).
+                        </p>
+                        <img src="./assets/img/4.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Sendo:
+                            <img src="./assets/img/QB_C16_009.png" alt="imagem" class="img-md">
+                        </p>
+                        <p class="general-text">No entanto, podemos classificar a força de uma base de maneira qualitativa, sem calcularmos seu grau de dissociação. Para isso, existem algumas regras práticas:</p>
+                        <ul class="questao-alternativas ml">
+                            <li><b>Fortes:</b>são bases com elevado grau de dissociação, pois os íons que dissolvem se dissociam bem, e são formadas pelos metais das famílias IA e IIA (exceto Be e Mg, que formam bases fracas). Exemplos: NaOH, KOH, Ca(OH)
+                                <sub>2</sub> .
+                            </li>
+                            <li><b>	Fracas: </b>são bases com baixo grau de dissociação, pois os íons que dissolvem se dissociam mal, e são formadas pelos demais metais presentes na tabela periódica, incluindo o NH
+                                <sub>4</sub> OH. Exemplos: CuOH, A
+                                <simbolos>&#8467;</simbolos>
+                                (OH)
+                                <sub>3</sub> , Pb(OH)
+                                <sub>4</sub> .
+                            </li>
+                        </ul>
+                        <h3 class="titulo2">Quanto à volatilidade </h3>
+                        <p class="general-text">A volatilidade, estudada no capítulo 2 (em que tratamos dos ácidos), é a capacidade que uma substância tem de evaporar. Assim, quanto mais volátil ela for, menor será sua temperatura de ebulição e maior será sua pressão de vapor.
+                        </p>
+                        <p class="general-text">
+                            A única base classificada como volátil é o hidróxido de amônio (NH
+                            <sub>4</sub> OH), pois a
+                            <b>amônia</b> (NH
+                            <sub>3</sub> ) sofre ionização ao ser dissolvida em água, produzindo o íon hidroxila. O íon NH
+                            <sub>4</sub>
+                            <sub>+</sub> é denominado
+                            <b>amônio</b> . O hidróxido de amônio somente existe em solução aquosa.
+                        </p>
+                        <img src="./assets/img/5.png" alt="imagem" class="img-md">
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Nomenclatura </h3>
+                        </div>
+                        <p class="general-text">A nomenclatura das bases apresenta regras bem definidas. Em uma ligação iônica, há cátions metálicos que sempre apresentam a mesma carga; no entanto, alguns deles (na maioria, de metais de transição) apresentam cargas variáveis,
+                            e a regra do octeto não se aplica para explicar essas cargas. </p>
+                        <h3 class="titulo2">Para cátions com carga fixa </h3>
+                        <p class="general-text">Quando os cátions apresentam carga fixa, ela não é mencionada no nome da base. A carga representa o número de elétrons que o elemento químico tem na camada de valência e essa carga pode ser obtida consultando a família na qual
+                            ele está localizado na tabela periódica ou realizando a distribuição eletrônica de acordo com o Diagrama de Linus Pauling. </p>
+                        <img src="./assets/img/7.png" alt="imagem" class="img-md">
+
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-2' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-2' class='lbl-toggle-mat'>
+                              <div class='flex-icon'>
+                                  <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                                  <p class='collapsible-title'>Fique ligado!</p>
+                              </div>
+                              <div class='flex-icon'>
+                                  <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                                  <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                              </div>
+                          </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+
+                                            <p class='chapter-description general-text'>
+                                                O
+                                                <b>cátion amônio</b> sempre apresenta
+                                                <b>carga 11</b> .
+                                            </p>
+                                            <p class='chapter-description general-text'>
+                                                O nitrogênio apresenta cinco elétrons na camada de valência e realiza três ligações covalentes simples com três hidrogênios e uma coordenada com um hidrogênio; como a coordenada representa um par de elétrons compartilhado e o hidrogênio só precisaria
+                                                receber um elétron para ele completar o octeto, a carga é
+                                                <simbolos>+</simbolos>
+                                                1.
+                                            </p>
+                                            <img src="./assets/img/I003-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="general-text">
+                            Hidróxido de
+                            <simbolos>+</simbolos>
+                            nome do elemento químico
+                        </p>
+
+                        <p class="general-text">NaOH: hidróxido de sódio</p>
+                        <p class="general-text">KOH: hidróxido de potássio</p>
+                        <p class="general-text">
+                            Ca(OH)
+                            <sub>2</sub> : hidróxido de cálcio
+                        </p>
+                        <p class="general-text">
+                            Mg(OH)
+                            <sub>2</sub> : hidróxido de magnésio
+                        </p>
+                        <p class="general-text">
+                            A
+                            <simbolos>&#8467;</simbolos>
+                            (OH)
+                            <sub>3</sub> : hidróxido de alumínio
+                        </p>
+                        <p class="general-text">
+                            NH
+                            <sub>4</sub> OH: hidróxido de amônio
+                        </p>
+                        <p class="general-text">AgOH: hidróxido de prata</p>
+                        <p class="general-text">
+                            Zn(OH)
+                            <sub>2</sub> : hidróxido de zinco
+                        </p>
+                        <p class="general-text">
+                            Cd(OH)
+                            <sub>2</sub> : hidróxido de cádmio
+                        </p>
+                        <h3 class="titulo2">Para cátions com carga variável </h3>
+                        <p class="general-text">Quando os cátions apresentam carga variável, esta deve ser mencionada no nome da base de acordo com uma das maneiras a seguir:</p>
+                        <img src="./assets/img/8.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Vamos utilizar como exemplo o cátion de ferro. Ele apresenta carga variável:
+                            <simbolos>+</simbolos>
+                            2 (menor valor de carga) e
+                            <simbolos>+</simbolos>
+                            3 (maior valor de carga). Assim, temos as seguintes bases que podem ser formadas:
+                        </p>
+                        <p class="general-text">
+                            Fe(OH)
+                            <sub>2</sub> : hidróxido de ferro(II) ou hidróxido ferroso
+                        </p>
+                        <p class="general-text">
+                            Fe(OH)
+                            <sub>3</sub> : hidróxido de ferro(III) ou hidróxido férrico
+                        </p>
+                        <p class="general-text">Outros exemplos de bases formadas por cátions com carga variável:</p>
+                        <p class="general-text">
+                            CuOH: hidróxido de cobre(I) ou hidróxido cuproso (Cu
+                            <simbolos>=</simbolos>
+                            <i>cuprum</i> em latim)
+                        </p>
+                        <p class="general-text">
+                            Cu(OH)
+                            <sub>2</sub> : hidróxido de cobre(II) ou hidróxido cúprico
+                        </p>
+                        <p class="general-text">
+                            AuOH: hidróxido de ouro(I) ou hidróxido auroso (Au
+                            <simbolos>=</simbolos>
+                            <i>aurum</i> em latim)
+                        </p>
+                        <p class="general-text">
+                            Au(OH)
+                            <sub>3</sub> : hidróxido de ouro(III) ou hidróxido áurico
+                        </p>
+                        <p class="general-text">
+                            Sn(OH)
+                            <sub>2</sub> : hidróxido de estanho(II) ou hidróxido estanoso
+                        </p>
+                        <p class="general-text">
+                            Sn(OH)
+                            <sub>4</sub> : hidróxido de estanho(IV) ou hidróxido estânico
+                        </p>
+                        <p class="general-text">
+                            Pb(OH)
+                            <sub>2</sub> : hidróxido de chumbo(II) ou hidróxido plumboso (Pb
+                            <simbolos>=</simbolos>
+                            <i>plumbum</i> em latim)
+                        </p>
+                        <p class="general-text">
+                            Pb(OH)
+                            <sub>4</sub> : hidróxido de chumbo(IV) ou hidróxido plúmbico
+                        </p>
+                        <p class="general-text">
+                            Hg
+                            <sub>2</sub> (OH)
+                            <sub>2</sub> : hidróxido de mercúrio(I) ou hidróxido mercuroso
+                        </p>
+                        <p class="general-text">
+                            Hg(OH)
+                            <sub>2</sub> : hidróxido de mercúrio(II) ou hidróxido mercúrico
+                        </p>
+                        <div class="wrap-collabsible">
+                            <input id="collapsible-mat" class="toggle-mat" type="checkbox">
+                            <label for="collapsible-mat" class="lbl-toggle-mat">
+                                <div class="flex-icon">
+                                  <img src="./assets/icons/06_BOXE_08_CT.svg" class="icon-boxe">
+                                  <p class="collapsible-title">
+                                    Em Biologia, vemos que...
+                                  </p>
+                                </div>
+                                <div class="flex-icon">
+                                  <img src="./assets/icons/arrow-down.svg" class="icon ion-md-add">
+                                  <img src="./assets/icons/arrow-up.svg" class="icon ion-md-remove">
+                                </div>
+                              </label>
+                            <div class="collapsible-content-mat">
+                                <div class="content-inner">
+                                    <div class="text-content-area">
+                                        <p class="general-text">
+                                            ...excretas é a designação biológica empregada aos resíduos nitrogenados produzidos pelo metabolismo, devendo ser eliminados a fim de permitir um estado de equilíbrio interno (homeostase) do organismo [...]O tipo de excreção de uma dessas substâncias
+                                            tóxicas está diretamente relacionado com a quantidade de água disponível na composição corpórea de cada ser vivo, como também associado ao ambiente onde ele habita.
+                                        </p>
+                                        <p class="general-text">
+                                            Classificação quanto ao tipo de excreta:
+                                        </p>
+                                        <p class="general-text">
+                                            Amoniotélicos (animais que excretam amônia)
+                                            <simbolos>&#10141;</simbolos>
+
+                                            essa substância é extremamente tóxica aos organismos, sendo a alta solubilidade em água uma propriedade química considerável durante a evolução, principalmente dos invertebrados aquáticos e peixes ósseos.
+                                        </p>
+                                        <p class="general-text">
+                                            Ureotélicos (animais que excretam ureia)
+                                            <simbolos>&#10141;</simbolos>
+
+                                            substância solúvel em água, contudo menos tóxica que a amônia. Sintetizada no fígado dos vertebrados a partir da reação da amônia e o gás carbônico, representa uma estratégia adaptativa de certos animais terrestres: os anelídeos, os peixes cartilaginosos
+                                            [tubarão e raia], os anfíbios [na fase adulta, pois na fase de girino excretam amônia, uma vez que vivem na água] e os mamíferos.
+                                        </p>
+                                        <p class="general-text">
+                                            Uricotélicos (animais que excretam ácido úrico)
+                                            <simbolos>&#10141;</simbolos>
+
+                                            substância de toxicidade baixa e insolúvel em água, [...] utilizada pelos insetos, répteis e aves.
+                                        </p>
+                                        <p class="quote-source">RIBEIRO, Krukembergue Divino Kirk da Fonseca. &#8220;Os tipos de excretas&#8221;. Mundo educação. Disponível em: &lt;https://mundoeducacao.bol.uol.com.br/biologia/os-tipos-excretas.htm&gt;. Acesso em: 14 jul. 2021.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="general-text">Na tabela a seguir, encontramos os elementos químicos com carga variável:</p>
+                        <img src="./assets/img/10.png" alt="imagem" class="img-md-1">
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Aplicações no cotidiano </h3>
+                        </div>
+
+                        <p class="general-text">A seguir, temos exemplos de aplicações de algumas bases estudadas:</p>
+
+                        <img src="./assets/img/ex1.png" alt="imagem" class="img-md-1">
+                        <img src="./assets/img/ex2.png" alt="imagem" class="img-md-1">
+                        <img src="./assets/img/ex3.png" alt="imagem" class="img-md-1">
+                        <img src="./assets/img/ex4.png" alt="imagem" class="img-md-1">
+                        <img src="./assets/img/ex5full.png" alt="imagem" class="img-full-width">
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Escala de pH </h3>
+                        </div>
+                        <p class="general-text">Sabemos que o suco de limão, o suco de tomate, o suco de laranja, o cafezinho e o vinagre são exemplos de substâncias ácidas; porém, você saberia dizer qual delas é a mais ácida?</p>
+                        <p class="general-text">O grau de acidez ou basicidade de uma solução pode ser expresso por meio da escala de pH (potencial hidrogeniônico), que será estudada com detalhes na terceira série do Ensino Médio. Por ora, vamos explorá-la, na figura a seguir,
+                            para termos uma noção do grau de acidez/basicidade de uma solução.</p>
+                        <img src="./assets/img/I004-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Escala de pH com exemplos de aplicação em cada valor. </p>
+                        <p class="general-text">
+                            A escala varia de 0 a 14 a 25
+                            <simbolos>°</simbolos>
+                            C, sendo que as soluções ácidas apresentam pH
+                            <simbolos>&lt;</simbolos>
+                            7, as soluções neutras apresentam pH
+                            <simbolos>=</simbolos>
+                            7, e as soluções básicas, pH
+                            <simbolos>&gt;</simbolos>
+                            7. Quanto mais próximo de um valor extremo da escala, mais intenso é o caráter daquele meio. Por exemplo, um suco de limão (pH
+                            <simbolos>=</simbolos>
+                            2) tem maior acidez que um suco de tomate (pH
+                            <simbolos>=</simbolos>
+                            4).
+                        </p>
+
+                        <img src="./assets/img/F007-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+
+                        <p class="img-subtitle">O pHmetro é um aparelho utilizado para medir o pH. </p>
+                        <p class="img-credit">tonaquatici/iStockphoto.com </p>
+                        <img src="./assets/img/F008-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Papel indicador universal utilizado para medir o pH por comparação com a escala de referência. </p>
+                        <p class="img-credit">deyangeorgiev/iStockphoto.com </p>
+                        <p class="general-text">A medida exata do pH é realizada por meio de um aparelho eletrônico digital chamado pHmetro (lê-se &#8220;peagômetro&#8221;), representado na figura ao lado. Pode-se utilizar ainda o papel indicador universal, uma tira que é mergulhada
+                            na solução de interesse de cálculo do pH e comparada com uma escala colorida de referência para se ter ideia do pH da solução.</p>
+                        <p class="general-text">
+                            Medir o pH de soluções é algo muito comum em diversas aplicações práticas, como em análises da qualidade da água presente nas piscinas, em procedimentos de controle de qualidade ambiental de rios, em diversos procedimentos utilizados na agronomia e no
+                            controle de qualidade de alimentos e produtos de limpeza. Nas piscinas, é comum o uso de
+                            <i>kits</i> que medem a quantidade de cloro e o pH da piscina. A quantidade de cloro é medida em uma grandeza conhecida como parte por milhão (ppm) e é utilizado o reagente orto-tolidina; para analisar o pH, é utilizado o reagente
+                            vermelho fenol.
+                        </p>
+                        <img src="./assets/img/lumen_2022_1s_l1_mat_fa_u1_cap1_F003.png" alt="" class="img-md">
+                        <p class="img-subtitle">
+                            <i>Kit</i> utilizado em piscinas para medir o teor de cloro e o pH da água.
+                        </p>
+                        <p class="img-credit">Sirirak/iStockphoto.com </p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Indicadores ácido-base </h3>
+                        </div>
+                        <p class="general-text">Indicadores são substâncias que indicam o caráter do meio (ácido, básico ou neutro) por meio da mudança de coloração. Eles podem ser caseiros (como o extrato de repolho roxo, plantas de flores &#8211; como hortênsias &#8211;, vinho
+                            tinto, vinagre etc.) ou laboratoriais (papel de tornassol, fenolftaleína, azul de bromotimol etc.), sendo os laboratoriais mais precisos do que os caseiros.</p>
+                        <p class="general-text">
+                            No laboratório, quando uma solução muda de cor, dizemos que ela atingiu seu
+                            <b>ponto de viragem</b> . Esse ponto varia de acordo com o indicador utilizado. A fenolftaleína, por exemplo, apresenta ponto de viragem entre o pH 8 e 10; já o azul de bromotimol, entre o pH 6,2 e 7,6.
+                        </p>
+                        <p class="general-text">No quadro a seguir, podemos verificar a cor característica de cada indicador quando presente em meio ácido, básico e neutro:</p>
+
+                        <div class="boxe-06-02-cie">
+                            <header>
+                                <img src="assets/icons/06_BOXE_02.svg" alt="Icone">
+                                <strong>Mais</strong>
+                            </header>
+
+                            <section>
+                                <h4 class="boxe-02-titulo1">
+                                    Sangue do diabo (tinta que desaparece &#8211; EXPERIÊNCIA QUÍMICA), Manual do mundo.
+                                </h4>
+
+                                <p class="general-text">
+                                    O vídeo mostra como fazer a experiência chamada &#8220;sangue do diabo&#8221;, que envolve uma base &#8211; o NH
+                                    <sub>4</sub> OH. Trata-se de uma forma divertida de colocar em prática o que estudamos até agora sobre as bases inorgânicas.
+                                </p>
+                                <p class="boxe-02-footer">
+                                    Disponível em: &#40; &#41;.&lt;https://www.youtube.com/embed/q4D1Q3eGHXk&gt;. Acesso em: 4 ago. 2021
+                                </p>
+                            </section>
+                        </div>
+
+                        <img src="./assets/img/12.png" alt="imagem" class="img-full-width">
+
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>1</b></p>
+                                <p class="exercicio-text"> <b>Ulbra-RS 2016</b> No capítulo Recreações Químicas, Sacks descreve suas primeiras incursões na experimentação química, como no texto abaixo.</p>
+                            </div>
+                            <p class="quote">O livro começava com Experimentos Elementares, usando tintas vegetais para vermos como mudavam de cor na presença de ácidos e álcalis. A tinta vegetal mais comum era o tornassol, retirado de um líquen [...]. Usei papéis de
+                                tornassol que meu pai tinha em sua farmácia, e vi que se tornavam vermelhos com diferentes ácidos e azuis com amônia alcalina. </p>
+                            <p class="quote-source">
+                                (SACKS, O.
+                                <i>Tio Tungstênio: Memórias de uma infância química</i> . São Paulo: Cia. das Letras, 2002).
+                            </p>
+
+                            <p class="exercicio-text ml">O uso de tornassol ainda é bastante comum nas aulas de Química. Testando os seguintes sistemas: </p>
+                            <ol class="questao-alternartivas ml" type="I">
+                                <li> solução aquosa de CH
+                                    <sub>3</sub> COOH
+                                </li>
+                                <li>solução aquosa de CH
+                                    <sub>3</sub> NH
+                                    <sub>2 </sub></li>
+                                <li>solução aquosa de NaOH</li>
+                                <li>olução aquosa contendo CO
+                                    <sub>2</sub> dissolvido
+                                </li>
+                                <li>solução aquosa de H
+                                    <sub>2</sub> SO
+                                    <sub>4</sub></li>
+                            </ol>
+                            <p class="exercicio-text ml">A cor resultante do papel tornassol será, respectivamente: </p>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>Azul; azul; vermelho; vermelho; azul.</li>
+                                <li>Vermelho; vermelho; azul; vermelho; azul.</li>
+                                <li>Vermelho; vermelho; vermelho; azul; vermelho.</li>
+                                <li>Azul; azul; azul; vermelho; vermelho.</li>
+                                <li>Vermelho; azul; azul; vermelho; vermelho.</li>
+                            </ol>
+
+                            <h3 class="titulo3">
+                                <b>Resolução:</b>
+                            </h3>
+                            <p class="exercicio-text ml">Alternativa e </p>
+                            <p class="exercicio-text ml">As soluções I (ácido acético), IV (dióxido de carbono) e V (ácido sulfúrico) são compostos que apresentam caráter ácido; portanto, o papel de tornassol ficará vermelho. Vale lembrar que o ácido carbônico é instável e se decompõe
+                                em água e dióxido de carbono. </p>
+                            <p class="exercicio-text ml">As soluções II e III, metanoamina e hidróxido de sódio, são compostos que apresentam caráter básico; portanto, o papel de tornassol ficará azul. A metanoamina é um composto orgânico que deriva da amônia (NH
+                                <sub>3</sub> ), que, em solução aquosa, produz a base NH
+                                <sub>4</sub> OH.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text">Segundo Arrhenius, o que são bases?</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"> Escreva a equação da reação de dissociação para as bases, nomeie-as e classifique-as quanto à força e à solubilidade.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>KOH</li>
+                            <li>Ca(OH)
+                                <sub>2 </sub></li>
+                            <li> Fe(OH)
+                                <sub>3  </sub></li>
+                            <li>Pb(OH)
+                                <sub>4  </sub></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text">Apenas uma base é classificada como volátil. Escreva a fórmula dessa base, seu nome e a equação da sua reação de ionização.</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">Em uma aula de laboratório, foi realizado um experimento visando testar a condutividade elétrica de duas bases: hidróxido de sódio (conhecida como soda cáustica) e hidróxido de magnésio (conhecida como leite de magnésia). O
+                                professor utilizou um dispositivo para medição da condutividade como o mostrado a seguir.</p>
+                        </div>
+                        <img src="./assets/img/LUMEN_2021_2S_L3_QUI_F002.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Para isso, foram adicionados a dois béqueres 100 mL de água a 20 ºC e, em cada um, 5 g de cada uma das bases.</p>
+                        <p class="exercicio-text ml">O brilho observado na lâmpada foi diferente, apesar dos dois testes terem sido realizados com bases. Como pode ser justificado o resultado observado?</p>
+
+
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"><b>Cefet-MG 2020</b> Em um frasco contendo água, foi colocado, cuidadosamente, uma pequena porção de sódio (Na) metálico. Durante a reação, observou-se a liberação de um gás inflamável e a formação de uma substância que coloriu
+                                uma solução de fenolftaleína. Sobre o experimento, é INCORRETO afirmar que</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> o gás liberado foi o O
+                                <sub>2</sub> .
+                            </li>
+                            <li> a substância produzida é iônica.</li>
+                            <li> a solução final pode ser neutralizada com um ácido.</li>
+                            <li> a solução adquiriu coloração rósea após adição de fenolftaleína.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"> <b>UFJF-MG 2019 </b> As reações ácido-base são reações importantes pelas suas inúmeras aplicações. Por exemplo, pessoas que sofrem com acidez estomacal são beneficiadas diariamente por este tipo de reação química. Evidentemente,
+                                excessos podem ser prejudiciais. Várias preparações farmacêuticas de antiácidos incluem as bases hidróxido de magnésio e hidróxido de alumínio para diminuir o excesso de ácido clorídrico do estômago. Baseado neste texto,
+                                responda:
+                            </p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Dê a fórmula química de todos os compostos inorgânicos citados no texto.</li>
+                            <li>Soluções aquosas destes compostos conduzem eletricidade? Justifique.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>PUC-MG 2016</b> Considere as seguintes afirmativas:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>Ácidos de Arrhenius são conhecidos por liberar íons H
+                                <sub>+</sub> em solução aquosa.</li>
+                            <li>Bases de Arrhenius são espécies capazes de liberar íons OH
+                                <sub>&#8211;</sub> em água.</li>
+                            <li>O ácido sulfúrico 98% é um ótimo condutor de eletricidade.</li>
+                            <li>Quanto maior o grau de ionização de um ácido, maior será sua força.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Dentre as afirmativas, são
+                            <b>CORRETAS</b> apenas:
+                        </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> I, II e IV</li>
+                            <li>II e IV</li>
+                            <li>II, III e IV</li>
+                            <li>I e II</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">Leia o texto a seguir e responda aos subitens.</p>
+                        </div>
+                        <p class="exercicio-text ml">Fiscalização interdita frigorífico após acidente com vazamento de amônia</p>
+                        <p class="quote">A Prefeitura de Porto Ferreira (SP) interditou nesta terça-feira (21) o frigorífico Porto Aves por falta de documentos de segurança. Um vazamento de amônia (NH
+                            <sub>3</sub> ) no local provocou a intoxicação de 15 funcionários na manhã de segunda-feira (20). [...]</p>
+                        <p class="quote">[O funcionário Adilson Ferreira] disse que não é a primeira vez que esse tipo de acidente acontece e que todos trabalham sem equipamentos de proteção. &#8220;Eu acho que deveria ter umas máscaras lá dentro porque é um lugar que
+                            tem gás tóxico&#8221;. [...] </p>
+                        <p class="quote">O acidente aconteceu na sala de máquinas durante um procedimento corriqueiro, informou o gerente da empresa. &#8220;Foi resolvido de imediato, mas a amônia leva alguns minutos para dissipar. Por segurança, evacuamos toda a área
+                            e dispensamos os funcionários&#8221; [...]</p>
+                        <p class="quote-source">
+                            &#8220;Fiscalização interdita frigorífico após acidente com vazamento de amônia&#8221;.
+                            <i>EPTV</i> , 21 jan. 2014. Disponível em: &lt;http://g1.globo.com/sp/sao-carlos-regiao/noticia/2014/01/fiscalizacao-interdita-frigorifico-apos-acidente-com-vazamento-de-amonia.html&gt;. Acesso em: 14 jul. 2021.
+                        </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>A substância descrita no texto nas condições ambientes correntes é encontrada em estado gasoso, mas, quando dissolvida em água, apresenta caráter básico. Justifique o caráter básico da amônia com o auxílio de uma equação química.</li>
+                            <li>Represente a fórmula eletrônica para a substância gasosa mencionada no texto.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Dados: </p>
+                        <img src="./assets/img/I006-2020-EM-QUI-1-FB-L2-U5-C16.png" alt="imagem" class="img-md">
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>UEG-GO</b></p>
+                        </div>
+                        <p class="quote">Sangue de mentirinha! </p>
+                        <p class="quote">De tanto assistir a filmes de terror, ou mesmo a filmes de ação, nos quais o mocinho tem sempre que apanhar primeiro, cabe sempre uma constatação e ao mesmo tempo uma pergunta: &#8220;Nossa, quanto sangue!&#8221;. É claro, tudo
+                            é de mentirinha, mas, na maioria das vezes (quando não há efeitos especiais), os diretores de filmes recorrem ao velho truque do sangue de mentirinha </p>
+                        <p class="quote">Uma forma de fazê-lo, sem manchar roupas, é medir 6 mL de água e 1 mL de detergente com amoníaco (amônia) e adicionar, com um conta-gotas, de 2 a 3 gotas de fenolftaleína, e colocar a solução num frasco de
+                            <i>spray</i> (do tipo desodorante). Ao borrifar a mistura num tecido branco, ele fica imediatamente manchado de vermelho. Aos poucos a mancha desaparece.</p>
+                        <p class="quote-source">Disponível em: &lt;http://www.geocities.com/CollegePark/Bookstore/2334/ sangue.html-adaptado&gt;. Acesso em: 21 ago. 2007. [Adaptado.]</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Escreva a equação química que descreve o processo, explicando o fenômeno relatado.</li>
+                            <li>Explique o que ocorreria se a peça de roupa em questão fosse lavada com sabão sem antes ser lavada somente com água.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Imed-RS 2016</b> Considerando o indicador de pH fenolftaleína, assinale a alternativa correta.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Esse indicador, na presença de uma solução ácida, torna-se róseo.</li>
+                            <li>A faixa de viragem da fenolftaleína e do azul de bromotimol é a mesma.</li>
+                            <li>Em pH 1, o indicador torna-se róseo.</li>
+                            <li> Em pH 10, o indicador torna-se incolor, a mesma coloração do indicador tornassol.</li>
+                            <li>Em pH 8, o indicador torna-se róseo.</li>
+                        </ol>
+
+                    </div>
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,3214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .vermelho1 {
+            color: red;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body-book">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    4
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Sais
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/F001-2020-EM-QUI-1-L2-FB-U5-C17.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">Geleca, massa gelatinosa utilizada como brinquedo, feita com hidrogenocarbonato de sódio, um sal.
+                        </p>
+                        <p class="img-credit">
+                            michellegibson/iStockphoto.com
+                        </p>
+                        <p class="general-text">
+                            A
+                            <b> geleca</b> , também conhecida por
+                            <b>amoeba </b> ou
+                            <i>slime</i> , é uma massa gelatinosa utilizada como brinquedo especialmente entre as crianças. Pode-se esticá-la, grudá-la, fazer bolhas e o que mais a criatividade permitir. Ela pode ser feita utilizando ingredientes caseiros,
+                            sendo um deles o hidroge- nocarbonato de sódio (NaHCO
+                            <sub>3</sub> ), também conhecido como bicarbonato de sódio, um composto classificado como
+                            <b>sal</b> , devido a algumas características que substâncias dessa função inorgânica apresentam.
+                        </p>
+                        <div class="boxe-06-03-cie">
+                            <header>
+                                <strong>Ingredientes</strong>
+                            </header>
+
+                            <section>
+                                <ul class="boxe-03-list">
+                                    <li>1 tubo (90 g) de cola branca ou cola de isopor (transparente); &#8226; </li>
+                                    <li>1 pacote de bicarbonato de sódio (aproximadamente 2 colheres de sopa) &#8211; vendido em supermercados; &#8226;</li>
+                                    <li>1 frasco (100 mL) de água boricada 3% &#8211; vendida em farmácias; &#8226;</li>
+                                    <li>Corante alimentício (opcional); &#8226;</li>
+                                    <li> <i>Glitter</i> extrafino (opcional); &#8226;</li>
+                                    <li>Dois copos; &#8226;</li>
+                                    <li>Colher, garfo ou palito de picolé; &#8226;</li>
+                                    <li>Pote com tampa.</li>
+                                </ul>
+                                <h3 class="titulo4">Como fazer</h3>
+                                <p class="general-text"> Em um copo, despeje a água boricada e acrescente 1 colher de sopa de bicarbonato de sódio. Misture. Acrescente mais bicarbonato e mexa sempre, até parar de sair &#8220;bolhas&#8221; do copo. Em outro copo, acrescente o
+                                    tubo inteiro de cola, 5 gotas de corante alimentício e o
+                                    <i>glitter</i> . Misture.</p>
+                                <p class="general-text">Com a colher, transfira a solução de água boricada e bicarbonato de sódio para o copo que contém a cola. Continue misturando. Adicione mais solução de água boricada e bicarbonato de sódio até que a mistura fique com o aspecto
+                                    de &#8220;geleca&#8221; e não grude mais na mão. Guarde sua geleca em um pote com tampa para que ela dure mais.</p>
+
+
+                            </section>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <!-- bullet and boxe-2 -->
+                <div class="text-content-area">
+                    <!-- bullet -->
+                    <div class="bullet-list-section">
+                        <ul class="bullet-list">
+                            <li class="general-text">
+                                Na experiência da geleca caseira, de qual gás são as bolhas liberadas?
+                            </li>
+                            <li class="general-text">
+                                Todo sal é solúvel em água?
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--boxe-2  -->
+                    <div class="boxe-06-02-cie-hab">
+                        <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                        <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                            <span class='boxe-06-texto'>
+                              EM13CNT101
+                                </span> ,
+                            <span class='boxe-06-texto'>
+                              EM13CNT104
+                                </span>,<span class='boxe-06-texto'>
+                                  EM13CNT201
+                                </span>e<span class='boxe-06-texto'>
+                                  EM13CNT307
+                                </span>.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="text-content-area">
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Definição de sal</h3>
+                    </div>
+                    <p class="general-text">Sais são compostos iônicos que apresentam pelo menos um cátion proveniente de uma base e um ânion proveniente de um ácido, segundo os conceitos propostos por Arrhenius. Em solução aquosa, sofrem dissociação; suas soluções são classificadas
+                        como eletrolíticas, pois apresentam íons livres, o que as torna boas condutoras de corrente elétrica.</p>
+                    <p class="general-text">
+                        Um sal é obtido por meio de uma
+                        <b>reação de neutralização</b> total ou parcial entre um ácido e uma base de Arrhenius; além do sal, essa reação forma água e pode ser representada, genericamente, por:
+                    </p>
+                    <img src="./assets/img/133.png" alt="imagem" class="img-md">
+                    <p class="general-text">
+                        Utilizaremos a
+                        <b>&#8220;regra do escorregador&#8221;</b> estudada nos compostos iônicos para montarmos a fórmula geral de um sal, uma vez que a montagem é feita a partir das cargas dos íons do ácido e da base que o compõem e que não entraram
+                        na composição da fórmula da água.
+                    </p>
+                    <img src="./assets/img/I001-2020-EM-QUI-1-L2-FB-U5-C17.png" alt="imagem" class="img-md">
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Nomenclatura </h3>
+                    </div>
+                    <p class="general-text">Para darmos nome a um sal, devemos conhecer o nome do seu ácido de origem, pois a terminação do nome do sal tem relação com ele. Veja, a seguir, a nomenclatura proposta pela União Internacional de Química Pura e Aplicada (IUPAC):</p>
+                    <img src="./assets/img/4.png" alt="imagem" class="img-md-1">
+                    <p class="general-text">Assim, podemos generalizar o nome de um sal:</p>
+                    <p class="general-text">
+                        Diversos exemplos de nomenclatura de sais serão abordados a seguir, junto com os tipos de reação de neutralização &#8211; reações características dos sais. Alguns desses exemplos são cloreto de sódio (NaC
+                        <simbolos>&#8467;</simbolos>
+                        ), nitrato de amônio (NH
+                        <sub>4</sub> NO
+                        <sub>3</sub> ), sulfato de cálcio (CaSO
+                        <sub>4</sub> ) e sulfato de cobre(II) (CuSO
+                        <sub>4</sub> ).
+                    </p>
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Tipos de reações de neutralização </h3>
+                    </div>
+                    <p class="general-text">De acordo com a proporção estequiométrica envolvida em uma reação química, podemos encontrar diferentes tipos de reação de neutralização. Vamos estudá-los caso a caso.</p>
+                    <h3 class="titulo2">Neutralização total </h3>
+                    <p class="general-text">
+                        São reações de neutralização em que o número de hidrogênios ionizáveis (H
+                        <sub>+</sub> ) do ácido é
+                        <b>igual</b> ao número de hidroxilas (OH
+                        <sub>&#8211;</sub> ) da base, que juntos formarão água (H
+                        <sub>+ </sub>
+                        <simbolos>+ </simbolos>
+                        OH
+                        <sub>&#8211;</sub>
+                        <simbolos>=</simbolos>
+                        H
+                        <sub>2</sub> O). O sal, por se tratar de um composto iônico, será formado pelos íons que sobraram da base e do ácido: o cátion e o ânion, respectivamente. Um sal gerado nesse tipo de reação é classificado como
+                        <b>sal neutro ou normal</b> .
+                    </p>
+                    <p class="general-text">Vamos analisar alguns casos:</p>
+                    <p class="general-text">
+                        <b>Exemplo 1:</b> reação entre o ácido clorídrico (HC
+                        <simbolos>&#8467;</simbolos>
+                        ) e o hidróxido de sódio (NaOH).
+                    </p>
+                    <p class="general-text">Vamos imaginar o ácido na forma ionizada e a base na forma dissociada para analisarmos suas cargas:</p>
+
+                    <p class="general-text">
+                        H
+                        <sub>+</sub> C
+                        <simbolos>&#8467;</simbolos>
+
+                        <simbolos></simbolos>
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        Na
+                        <sub>+</sub> OH
+                        <sub>&#8211;</sub>
+                        <simbolos>&#10141;</simbolos>
+                        Na
+                        <sub>+</sub> C
+                        <simbolos>&#8467;</simbolos>
+
+                        <simbolos></simbolos>
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Nesse exemplo, tínhamos um monoácido (1 H
+                        <sub>+</sub> ) e uma monobase (1 OH
+                        <sub>&#8211;</sub> ) reagindo na proporção de 1 : 1, formando, assim, uma molécula de água. Os íons que sobraram formaram um composto iônico, por isso vemos como produto, além da água, o sal formado pelo cátion Na
+                        <sub>+</sub> (oriundo da base) e pelo ânion C
+                        <simbolos>&#8467;</simbolos>
+                        <sub>&#8211;</sub> (oriundo do ácido). Vale lembrar que o cátion sempre vem na frente do ânion na fórmula de um composto iônico, pois a IUPAC recomenda que eles sejam
+                        <b>escritos</b> na
+                        <b>ordem crescente de eletronegatividade</b> .
+                    </p>
+                    <p class="general-text">
+                        H
+                        <sub></sub>
+                        <sub></sub> C
+                        <simbolos>&#8467;</simbolos>
+
+                        <simbolos></simbolos>
+                        <simbolos></simbolos>
+                        <simbolos>+</simbolos>
+                        Na OH
+                        <simbolos>&#10141;</simbolos>
+
+                        NaC
+                        <simbolos>&#8467;</simbolos>
+
+                        <simbolos>+</simbolos>
+                        H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="img-subtitle">
+                        Ácido Hidróxido Clor
+                        <b>eto</b>
+                    </p>
+                    <p class="img-subtitle">
+                        clor
+                        <b>ídrico</b> de
+                        <b>sódio</b> de
+                        <b>sódio</b>
+                    </p>
+                    <p class="general-text">
+                        <b>Exemplo 2:</b> reação entre o ácido sulfúrico (H
+                        <sub>2</sub> SO
+                        <sub>4</sub> ) e o hidróxido de cálcio [Ca(OH)
+                        <sub>2</sub> ].
+                    </p>
+                    <p class="general-text">
+                        H
+                        <sub>+</sub> H
+                        <sub>+</sub> SO
+                        <sub>4 </sub>
+                        <sub>2&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        Ca
+                        <sub>2+</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub>
+                        <simbolos>&#10141;</simbolos>
+
+                        Ca
+                        <sub>2+</sub> SO
+
+                        <sub>4 </sub>
+                        <sub>2&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Temos um diácido (2 H
+                        <sub>+</sub> ) e uma dibase (2 OH
+                        <sub>&#8211; </sub> ) reagindo na proporção de 1:1, formando, assim, duas moléculas de água. Os íons que sobraram formaram um composto iônico, por isso vemos como produto, além da água, o sal formado pelo cátion Ca
+                        <sub>2+</sub> (oriundo da base) e pelo ânion SO
+                        <sub>4</sub>
+                        <sub>2&#8211;</sub> (oriundo do ácido).
+                    </p>
+                    <p class="general-text">
+                        H
+                        <sub>2</sub> SO
+                        <sub>4</sub>
+                        <simbolos>+</simbolos>
+                        Ca (OH)
+                        <sub>2</sub>
+                        <simbolos>&#10141;</simbolos>
+                        CaSO
+                        <sub>4</sub>
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="img-subtitle">
+                        Ácido Hidróxido Sulf
+                        <b>ato</b>
+                    </p>
+                    <p class="img-subtitle">
+                        sulfúr
+                        <b>ico</b> de
+                        <b>cálcio</b> de
+                        <b>cálcio</b>
+                    </p>
+                    <p class="general-text">
+                        <b>Exemplo 3: </b> reação entre o ácido cloroso (HC
+                        <simbolos>&#8467;</simbolos>
+                        O
+                        <sub>2</sub> ) e o hidróxido de alumínio [A
+                        <simbolos>&#8467;</simbolos>
+                        (OH)
+                        <sub>3</sub> ].
+                    </p>
+                    <p class="general-text">
+                        3 H
+                        <sub>+</sub> C
+                        <simbolos>&#8467;</simbolos>
+                        O
+
+                        <sub>2</sub>
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+
+                        A
+                        <simbolos>&#8467;</simbolos>
+
+                        <sub>3+</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub>
+                        <simbolos>&#10141;</simbolos>
+
+                        A
+                        <simbolos>&#8467;</simbolos>
+                        <sub>3+ </sub> 3 C
+                        <simbolos>&#8467;</simbolos>
+                        O
+
+                        <sub>2</sub>
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        3 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Aqui temos um monoácido (1 H
+                        <sub>+</sub> ) e uma tribase (3 OH
+                        <sub>&#8211;</sub> ). Para que a neutralização seja total, devemos balancear a reação na proporção de 3:1, formando, assim, três moléculas de águas. Os íons que sobraram formaram um composto iônico, por isso vemos como produto,
+                        além da água, o sal formado pelo cátion A
+                        <simbolos>&#8467;</simbolos>
+                        <sub>3+</sub> (oriundo da base) e pelo ânion C
+                        <simbolos>&#8467;</simbolos>
+                        O
+                        <sub>2   </sub>
+                        <sub>&#8211;</sub> (oriundo do ácido).
+                    </p>
+                    <p class="general-text">
+                        3 H C
+                        <simbolos>&#8467;</simbolos>
+                        O
+
+                        <sub>2</sub>
+                        <simbolos>+</simbolos>
+                        AL
+                        <simbolos></simbolos>
+                        (OH)
+                        <sub>3</sub>
+                        <simbolos>&#10141;</simbolos>
+
+                        A
+                        <simbolos>&#8467;</simbolos>
+                        (C
+                        <simbolos>&#8467;</simbolos>
+                        O
+                        <sub>2</sub> )
+
+                        <sub>3</sub>
+                        <simbolos>+</simbolos>
+                        3 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="img-subtitle">
+                        Ácido Hidróxido Clor
+                        <b>ito</b> de
+                    </p>
+                    <p class="img-subtitle">
+                        clor
+                        <b>oso</b> de
+                        <b>alumínio</b>
+                        <b>alumínio</b>
+                    </p>
+                    <p class="general-text">Toda vez que um exercício solicitar uma reação de neutralização, iremos montar a neutralização total do ácido e da base; só faremos as neutralizações parciais caso nos seja pedido para usar uma proporção definida.</p>
+
+
+                    <div>
+                        <!-- watch out -->
+                        <div class='wrap-collabsible'>
+                            <input id='collapsible-his-2' class='toggle-mat' type='checkbox'>
+                            <label for='collapsible-his-2' class='lbl-toggle-mat'>
+                      <div class='flex-icon'>
+                          <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                          <p class='collapsible-title'>Fique ligado!</p>
+                      </div>
+                      <div class='flex-icon'>
+                          <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                          <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                      </div>
+                  </label>
+                            <div class='collapsible-content-mat'>
+                                <div class='content-inner'>
+                                    <div class='text-content-area'>
+
+                                        <p class='chapter-description general-text'>
+
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            Sais formados por
+                                            <b>cátions ou ânions poliatômicos</b> &#8211; ou seja, que são constituídos por, ao menos, dois elementos químicos &#8211; e que apresentam carga diferente de 1
+                                            <simbolos>+</simbolos>
+                                            ou 1
+                                            <simbolos>&#8211;</simbolos>
+                                            devem aparecer dentro de parênteses ao se aplicar a &#8220;regra do escorregador&#8221; para chegar à fórmula do composto. Veja alguns exemplos de montagem da fórmula desses sais e, na sequência, como eles ficariam dissociados em água:
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            Mg
+                                            <sub>2+</sub>
+                                            <simbolos>+</simbolos>
+                                            PO4
+                                            <sub>3&#8211;</sub>
+                                            <simbolos>:</simbolos>
+                                            Mg3 (PO4)2
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            Mg3(PO4)2
+                                            <img src="./assets/img/102_FBU5C17.png" alt="imagem" class="img-littlee2">3 Mg
+                                            <sub>2+</sub>
+                                            <simbolos>+</simbolos>
+                                            2 PO4
+                                            <sub>3&#8211;</sub>
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            NH4
+                                            <sub>+</sub>
+                                            <simbolos>+</simbolos>
+                                            SO4
+                                            <sub>2&#8211;</sub>
+                                            <simbolos>:</simbolos>
+                                            (NH4)2SO4
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            (NH4)2SO4
+                                            <img src="./assets/img/102_FBU5C17.png" alt="" class="img-littlee2">2 NH4
+                                            <sub>+</sub>
+                                            <simbolos>+</simbolos>
+                                            SO44
+                                            <sub>2&#8211;</sub>
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            A
+                                            <simbolos>&#8467;</simbolos>
+                                            <sub>3+</sub>
+                                            <simbolos>+</simbolos>
+                                            CO3
+                                            <sub>2&#8211;</sub>
+                                            <simbolos>:</simbolos>
+                                            A
+                                            <simbolos>&#8467;</simbolos>
+                                            2(CO3)3
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            A
+                                            <simbolos>&#8467;</simbolos>
+                                            2(CO3)3
+                                            <img src="./assets/img/102_FBU5C17.png" alt="imagem" class="img-littlee2">2 A
+                                            <simbolos>&#8467;</simbolos>
+                                            <sub>3+</sub>
+                                            <simbolos>+</simbolos>
+                                            3 CO3
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            <sub> 2&#8211;</sub>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="titulo2">Neutralização parcial do ácido </h3>
+                    <p class="general-text">
+                        São reações de neutralização em que o número de hidrogênios ionizáveis (H
+                        <sub>+</sub> ) do ácido é
+                        <b>maior</b> do que o número de hidroxilas (OH
+                        <sub>&#8211;</sub> ) da base, os quais, juntos, formarão água (H
+                        <sub>+ </sub>
+                        <simbolos>+ </simbolos>
+                        OH
+                        <sub>&#8211;</sub>
+                        <simbolos>=</simbolos>
+                        H
+                        <sub>2</sub> O). Assim, acontece a ionização parcial do ácido. Os hidrogênios ionizáveis que não reagiram aparecem, na composição da fórmula do sal, entre o cátion e o ânion. Seu nome também sofre algumas modificações em comparação
+                        com os sais obtidos em uma neutralização total. Um sal gerado nesse tipo de reação é classificado como
+                        <b>sal ácido ou hidrogenossal</b> .
+                    </p>
+                    <p class="general-text">Vamos analisar alguns casos:</p>
+                    <p class="general-text">
+                        <b>Exemplo 1:</b> reação entre o ácido carbônico (H
+                        <sub>2</sub> CO
+                        <sub>3</sub> ) e o hidróxido de sódio (NaOH) na proporção de 1:1.
+                    </p>
+                    <p class="general-text">Colocando o ácido na forma ionizada e a base na forma dissociada, podemos analisar suas cargas:</p>
+                    <p class="general-text">
+                        1 H
+                        <sub>+</sub> H
+                        <sub>+</sub> CO
+                        <sub>3 </sub>
+                        <sub>2&#8211;</sub>
+                        <simbolos>=</simbolos>
+                        1 Na
+                        <sub>+</sub> OH
+                        <sub>&#8211;</sub> Na
+                        <sub>+</sub> H
+                        <sub>+</sub> CO
+                        <sub>3</sub>
+                        <sub>2&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Temos um diácido (2 H
+                        <sub>+</sub> ) e uma monobase (1 OH
+                        <sub>&#8211;</sub> ) reagindo na proporção de 1:1, formando, assim, uma molécula de água e um sal que contém o outro íon H
+                        <sub>+</sub> que não reagiu com o OH
+                        <sub>&#8211;</sub> . Esse hidrogênio aparece entre o cátion e o ânion do sal.
+                    </p>
+                    <p class="general-text">
+                        O sal pode receber qualquer um dos três nomes dados acima, sendo o prefixo &#8220;mono&#8221; opcional. Assim, também estaria correto hidrogenocarbonato de sódio ou carbonato ácido de sódio. O prefixo
+                        <b>&#8220;bi&#8221; </b> pode ser utilizado apenas quando temos um diácido que sofre uma neutralização parcial. Esse prefixo tem origem histórica: na época, não se conhecia com exatidão todas as fórmulas dos compostos e acreditava-se
+                        que o bissulfato fosse o &#8220;dobro&#8221; do sulfato, por exemplo.
+                    </p>
+                    <img src="./assets/img/8.png" alt="imagem" class="img-md-1">
+                    <p class="general-text">
+                        <b>Exemplo 2:</b> reação entre o ácido fosfórico (H
+                        <sub>3</sub> PO
+                        <sub>4</sub> ) e o hidróxido de potássio (KOH) na proporção de 1:1.
+                    </p>
+                    <p class="general-text">Olhando as fórmulas do ácido na forma ionizada e da base na forma dissociada, podemos analisar suas cargas:</p>
+                    <p class="general-text">
+                        1 H
+                        <sub>+</sub> H
+                        <sub>+</sub> H
+                        <sub>+</sub> PO
+                        <sub>4</sub>
+                        <sub>3&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        1 K
+                        <sub>+</sub> OH
+                        <sub>&#8211;</sub>
+                        <img src="./assets/img/105_FBU5C17.png" alt="imagem" class="img-littlee2"> K
+                        <sub>+</sub> 2 H
+                        <sub>+</sub> PO
+                        <sub>4</sub>
+                        <sub>3&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Temos um triácido (3 H
+                        <sub>+</sub> ) e uma monobase (1 OH
+                        <sub>&#8211;</sub> ) reagindo na proporção de 1:1, formando, assim, uma molécula de água e o sal, o qual contém os outros dois H
+                        <sub>+</sub> que não formaram água, sendo que estes deverão aparecer entre o cátion e o ânion na fórmula do sal.
+                    </p>
+                    <img src="./assets/img/9.png" alt="imagem" class="img-md-1">
+
+                    <div>
+                        <!-- watch out -->
+                        <div class='wrap-collabsible'>
+                            <input id='collapsible-his-3' class='toggle-mat' type='checkbox'>
+                            <label for='collapsible-his-3' class='lbl-toggle-mat'>
+                      <div class='flex-icon'>
+                          <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                          <p class='collapsible-title'>Fique ligado!</p>
+                      </div>
+                      <div class='flex-icon'>
+                          <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                          <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                      </div>
+                  </label>
+                            <div class='collapsible-content-mat'>
+                                <div class='content-inner'>
+                                    <div class='text-content-area'>
+                                        <p class='chapter-description general-text'>
+                                            Não confunda a classificação de um sal com suas propriedades!
+                                        </p>
+                                        <p class='chapter-description general-text'>
+                                            Por exemplo, o
+                                            <b>bicarbonato de sódio (NaHCO</b> 3
+                                            <b>)</b> é classificado como um
+                                            <b>sal ácido</b> , pois, em sua composição, encontramos um íon H+ que não reagiu com as hidroxilas presentes na base. No entanto,
+                                            <b>apresenta propriedades básicas</b> , sendo utilizado para neutralizar excesso de acidez.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="titulo2">Neutralização parcial da base </h3>
+                    <p class="general-text">
+                        São reações de neutralização em que o número de hidrogênios ionizáveis (H
+                        <sub>+</sub> ) do ácido é
+                        <b>menor</b> do que o número de hidroxilas (OH
+                        <sub>&#8211;</sub> ) da base, os quais juntos formarão água (H
+                        <sub>+</sub> OH
+                        <sub>&#8211;</sub>
+                        <simbolos>=</simbolos>
+                        H
+                        <sub>2</sub> O). Com isso, acontece a neutralização parcial da base. Os íons OH
+                        <sub>&#8211;</sub> que sobram aparecerão entre parênteses na fórmula do sal e estarão localizados entre o cátion e o ânion. Seu nome também sofre algumas modificações em comparação com os sais obtidos em uma neutralização total.
+                        Um sal gerado nesse tipo de reação é classificado como
+                        <b>sal básico </b> ou
+                        <b> hidroxissal</b> .
+                    </p>
+
+                    <div>
+                        <!-- watch out -->
+                        <div class='wrap-collabsible'>
+                            <input id='collapsible-his-4' class='toggle-mat' type='checkbox'>
+                            <label for='collapsible-his-4' class='lbl-toggle-mat'>
+                      <div class='flex-icon'>
+                          <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                          <p class='collapsible-title'>Fique ligado!</p>
+                      </div>
+                      <div class='flex-icon'>
+                          <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                          <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                      </div>
+                  </label>
+                            <div class='collapsible-content-mat'>
+                                <div class='content-inner'>
+                                    <div class='text-content-area'>
+                                        <p class='general-text'>
+                                            <p class='chapter-description general-text'>
+                                                O prefixo &#8220;di&#8221;, assim como todos os prefixos multiplicadores (tri, tetra etc.), são
+                                                <b>obrigatórios</b> . Apenas o prefixo &#8220;mono&#8221; é opcional.
+                                            </p>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="general-text">Vamos analisar alguns casos:</p>
+                    <p class="general-text">
+                        <b>Exemplo 1:</b> reação entre o ácido cianídrico (HCN) e o hidróxido de magnésio [Mg(OH)
+                        <sub>2</sub> ], na proporção de 1:1.
+                    </p>
+                    <p class="general-text">Vamos analisar o ácido na forma ionizada e a base na forma dissociada:</p>
+
+                    <p class="general-text">
+                        1 H
+                        <sub>+</sub> CN
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        1 Mg
+                        <sub>2+</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub>
+                        <img src="./assets/img/105_FBU5C17.png" alt="imagem" class="img-littlee2"> Mg
+                        <sub>2+</sub> (OH
+                        <sub>&#8211;</sub> )CN
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Temos um monoácido (1 H
+                        <sub>+</sub> ) e uma dibase (2 OH
+                        <sub>&#8211;</sub> ) reagindo na proporção de 1:1, formando, assim, uma molécula de água e um sal, cuja fórmula contém, entre o cátion e o ânion, o íon OH
+                        <sub>&#8211;</sub> que não reagiu com o H
+                        <sub>+</sub> .
+                    </p>
+                    <p class="general-text">O sal pode receber qualquer um dos dois nomes dados acima, sendo o prefixo &#8220;mono&#8221; opcional. Assim, também estaria correto hidroxicianeto de magnésio ou cianeto básico de magnésio. </p>
+                    <div class="boxe-06-02-cie">
+                        <header>
+                            <img src="assets/icons/06_BOXE_02.svg" alt="Icone">
+                            <strong>Mais</strong>
+                        </header>
+
+                        <section>
+                            <h4 class="boxe-02-titulo1">
+                                Aqua Regia dissolves Gold, Periodic Videos.
+                            </h4>
+                            <p class="general-text">As proporções entre os reagentes podem formar produtos diferentes. </p>
+                            <p class="general-text">
+                                A água régia (do latim
+                                <i>&#8220;aqua regia&#8221;</i> , que significa &#8220;água real&#8221;) é uma mistura de ácido nítrico e ácido clorídrico concentrados, geralmente, na proporção de 1 para 3. É um líquido altamente corrosivo de coloração
+                                amarela. Ela é uma das poucas substâncias que podem dissolver o ouro e a platina. A &#8220;água régia&#8221; tem esse nome devido à propriedade de dissolver os metais nobres (&#8220;regios&#8221;), embora o tantálio, o
+                                irídio e outros metais extremamente inertes possam suportar o seu ataque. A invenção da água régia é atribuída ao alquimista árabe Geber, e ela também era muito empregada por outros alquimistas; ainda hoje, é utilizada
+                                em diversos procedimentos analíticos. Vamos assistir ao vídeo que fala mais sobre a água régia. Vídeo em inglês com legendas disponíveis.
+                            </p>
+                            <p class="boxe-02-footer">
+                                Disponível em: &#40; &#41;.&lt;https://www.youtube.com/watch?v=iwnKU89CCdI&gt; . Acesso em: 4 ago. 2021.
+                            </p>
+                        </section>
+                    </div>
+                    <p class="general-text">
+                        <b>Exemplo 2:</b> reação entre o ácido nítrico (HNO
+                        <sub>3</sub> ) e o hidróxido de chumbo(IV) [Pb(OH)
+                        <sub>4</sub> ] na proporção de 2:1.
+                    </p>
+                    <p class="general-text">Vamos imaginar o ácido na forma ionizada e a base na forma dissociada para analisarmos suas cargas:</p>
+                    <p class="general-text">
+                        2 H
+                        <sub>+</sub> NO
+                        <sub>3 </sub>
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        1 Pb
+                        <sub>4+</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub> OH
+                        <sub>&#8211;</sub>
+                        <img src="./assets/img/111_FBU5C17.png" alt="imagem" class="img-littlee2"> Pb
+                        <sub>4+</sub> 2 OH
+                        <sub>&#8211;</sub> 2 NO3
+                        <sub>&#8211;</sub>
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="general-text">
+                        Temos um monoácido (1 H
+                        <sub>+</sub> ) e uma tetrabase (4 OH
+                        <sub>&#8211;</sub> ) reagindo na proporção de 2:1, formando, assim, duas moléculas de água, e sobram dois íons OH
+                        <sub>&#8211;</sub> sem reagir. Esses íons estarão presentes na fórmula do sal e deverão aparecer entre o cátion e o ânion.
+                    </p>
+                    <p class="general-text">
+                        O sal pode receber ainda os nomes que evidenciam a carga variável de um metal. O chumbo apresenta cargas
+                        <simbolos>+</simbolos>
+                        2 e
+                        <simbolos>+</simbolos>
+                        4; logo, também estariam corretos os nomes dihidroxinitrato plúmbico ou nitrato dibásico plúmbico.
+                    </p>
+
+                    <div class='questao-resolvida'>
+                        <div class='flex-icon header-questao-resolvida'>
+                            <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'> <b>Mackenzie-SP 2016</b> Alguns produtos comercializados no mercado têm como principais componentes substâncias inorgânicas, nas quais o elemento químico sódio encontra-se presente.Na tabela abaixo, segue a relação de algumas
+                                dessas substâncias.</p>
+                        </div>
+                        <img src="./assets/img/12.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Assinale a alternativa na qual encontram-se as fórmulas químicas das substâncias inorgânicas presentes nos produtos comercializados, na ordem que aparecem na tabela, de cima para baixo. </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>NaHC
+                                <simbolos>&#8467;</simbolos>
+                                O, NaOH, NaC
+                                <simbolos>&#8467;</simbolos>
+                                O, NaHCO3 e NaF.</li>
+                            <li>NaC
+                                <simbolos>&#8467;</simbolos>
+                                O, NaOH, NaC
+                                <simbolos>&#8467;</simbolos>
+                                , NaHCO3 e NaF.</li>
+                            <li>NaHC
+                                <simbolos>&#8467;</simbolos>
+                                O, NaC
+                                <simbolos>&#8467;</simbolos>
+                                , NaOH, NaHCO2 e Na2F.</li>
+                            <li> NaC
+                                <simbolos>&#8467;</simbolos>
+                                O, NaHO, NaC
+                                <simbolos>&#8467;</simbolos>
+                                , NaHCO4 e Na2F.</li>
+                            <li>NaHC
+                                <simbolos>&#8467;</simbolos>
+                                O, NaHO, NaC
+                                <simbolos>&#8467;</simbolos>
+                                , NaHCO3 e NaF2.</li>
+                        </ol>
+                        <h3 class="titulo3">
+                            <b>Resolução: </b>
+                        </h3>
+                        <p class="exercicio-text ml">Alternativa b </p>
+                        <img src="./assets/img/13.png" alt="imagem" class="img-md-1">
+                    </div>
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Sais duplos ou mistos </h3>
+                    </div>
+                    <p class="general-text">Sais duplos ou mistos são sais obtidos pela reação de neutralização entre dois ácidos e uma base ou entre um ácido e duas bases. Dessa forma, o sal formado terá dois cátions ou dois ânions.</p>
+                    <p class="general-text">Vamos analisar cada um dos casos mencionados.</p>
+                    <h3 class="titulo2">Sais formados por dois ácidos </h3>
+                    <p class="general-text">Sais obtidos pela reação entre dois ácidos e uma base. </p>
+                    <p class="general-text">
+                        Vamos estudar a reação entre HBr, HC
+                        <simbolos>&#8467;</simbolos>
+                        e Ca(OH)
+                        <sub>2</sub> .
+                    </p>
+                    <p class="general-text">
+                        Note que temos dois ânions: brometo (Br
+                        <sub>&#8211;</sub> ) e cloreto (C
+                        <simbolos>&#8467;</simbolos>
+                        <sub>&#8211;</sub> ). A IUPAC recomenda que eles sejam
+                        <b>escritos</b> na
+                        <b>ordem crescente de eletronegatividade</b> , por isso o cálcio veio antes &#8211; pois, por ser metal, é menos eletronegativo &#8211;, sendo seguido pelo brometo (ânion menos eletronegativo), que foi colocado antes do cloreto
+                        (
+                        <simbolos>Δ</simbolos>
+                        <sub>2</sub> , ânion mais eletronegativo). Para
+                        <b>nomeá-los</b> , a IUPAC recomenda que utilizemos a
+                        <b>ordem decrescente</b> de eletronegatividade para os ânions e que estes sejam separados por hífen.
+                    </p>
+                    <p class="general-text">
+                        nome do ânion mais eletronegativo (
+                        <simbolos>Δ</simbolos>
+                        <sub>2</sub> )
+                        <simbolos>+</simbolos>
+                        <simbolos>+</simbolos>
+                        nome do ânion menos eletronegativo
+                        <simbolos>+</simbolos>
+                        de
+                        <simbolos>+</simbolos>
+                        nome do cátion
+                    </p>
+                    <p class="general-text">Vale lembrar, aqui, a fila da eletronegatividade dos ametais em ordem decrescente: </p>
+                    <h3 class="titulo2">Sais formados por duas bases </h3>
+                    <p class="general-text">Sais obtidos pela reação entre um ácido e duas bases. </p>
+                    <p class="general-text">
+                        Vamos estudar a reação entre H
+                        <sub>2</sub> SO
+                        <sub>4</sub>
+                        <sub></sub> , NaOH e KOH.
+                    </p>
+                    <img src="./assets/img/19.png" alt="imagem" class="img-md">
+                    <p class="general-text">
+                        Note que temos dois cátions: potássio (K
+                        <sub>+</sub> ) e sódio (Na
+                        <sub>+</sub> ). A IUPAC recomenda que eles sejam
+                        <b>escritos</b> na
+                        <b>ordem crescente de eletronegatividade</b> , por isso o potássio (
+                        <simbolos>Δ</simbolos>
+                        <sub>1</sub> , cátion mais eletropositivo e, portanto, menos eletronegativo) foi colocado antes do sódio (cátion menos eletropositivo), que é seguido do sulfato. Para
+                        <b>nomeá-los</b> , a IUPAC recomenda que utilizemos a
+                        <b>ordem decrescente</b> de eletronegatividade para os cátions e o termo &quot;duplo&quot; junto do ânion.
+                    </p>
+                    <img src="./assets/img/20.png" alt="imagem" class="img-md">
+                    <img src="./assets/img/21.png" alt="imagem" class="img-md">
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Sais hidratados </h3>
+                    </div>
+                    <p class="general-text">
+                        Sais hidratados são sais que absorvem água da atmosfera e a incorporam em seu retículo cristalino, fenômeno denominado
+                        <b>higroscopia</b> . O número de moléculas incorporadas varia entre os diversos sais. A fórmula geral desses sais é CA
+                        <simbolos>·</simbolos>
+                        n H
+                        <sub>2</sub> O, em que o cátion está representado por (C
+                        <sub>+</sub> ), o ânion por (A
+                        <sub>&#8211;</sub> ), e o &#8220;n&#8221; indica o grau de hidratação que aquele sal apresenta.
+                    </p>
+                    <p class="general-text">Para darmos nome, devemos seguir o padrão:</p>
+                    <img src="./assets/img/23.png" alt="imagem" class="img-md">
+                    <p class="general-text">O prefixo representa o número de moléculas de água presentes, sendo 1 (mono), 2 (di), 3 (tri), 4 (tetra), 5 (penta) etc.</p>
+                    <p class="general-text">Veja os exemplos abaixo: &#8226; </p>
+                    <ul class="questao-alternativas ml">
+                        <li> CuSO
+                            <sub>4</sub>
+                            <simbolos>·</simbolos>
+                            5 H
+                            <sub>2</sub> O: sulfato de cobre(II) penta-hidratado &#8226;</li>
+                        <li>CaC
+                            <simbolos>&#8467;</simbolos>
+                            <sub>2</sub>
+                            <simbolos>·</simbolos>
+                            2 H
+                            <sub>2</sub> O: cloreto de cálcio di-hidratado &#8226;</li>
+                        <li>Na
+                            <sub>2</sub> SO
+                            <sub>4</sub>
+                            <simbolos>·</simbolos>
+                            10 H
+                            <sub>2</sub> O: sulfato de sódio deca-hidratado</li>
+                    </ul>
+                    <p class="general-text">
+                        Quando um
+                        <b>sal</b> é
+                        <b>aquecido</b> , ele perde água e se torna um
+                        <b>sal anidro</b> . Suas propriedades são completamente diferentes dos sais hidratados, inclusive no aspecto.
+                    </p>
+                    <p class="general-text">
+                        Como primeiro exemplo, podemos analisar o sulfato de cobre(II) penta-hidratado, que tem cor azul e que, ao ser aquecido (
+                        <simbolos>á</simbolos>
+                        300
+                        <simbolos>°</simbolos>
+                        C), elimina água e muda sua coloração para branco, conforme representado na equação abaixo e na figura a seguir.
+                    </p>
+                    <img src="./assets/img/24.png" alt="imagem" class="img-md">
+                    <p class="general-text">
+                        O símbolo
+                        <simbolos>Δ</simbolos>
+                        <b></b> acima da seta indica que a reação ocorre com
+                        <b>aquecimento</b> .
+                    </p>
+                    <img src="./assets/img/F002-2020-EM-QUI-1-FB-L2-U5-C17_.png" alt="imagem" class="img-md">
+                    <p class="img-subtitle">Sulfato de cobre(II) hidratado (azul) e anidro (branco). </p>
+                    <p class="img-credit">Turtle Rock Scientific/ Science Source/Fotoarena </p>
+                    <p class="general-text">O mesmo ocorre com o cloreto de cobalto(II) hexa-hidratado, que altera sua coloração de rosa para azul ao ser aquecido, como observamos na equação abaixo e na figura a seguir. </p>
+                    <img src="./assets/img/25.png" alt="imagem" class="img-md">
+                    <img src="./assets/img/F004_e_F005_-_2020-EM-QUI-1-FB-L2-U5-C17_.png" alt="" class="img-md">
+
+                    <p class="img-subtitle">Cloreto de cobalto(II) hidratado (rosa) e anidro (azul). </p>
+                    <p class="img-credit">Turtle Rock Scientific/Science Source/Fotoarena </p>
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Solubilidade em água </h3>
+                    </div>
+                    <p class="general-text">
+                        Sais são compostos iônicos. Assim, quando colocados em água, sofrem dissociação, gerando íons livres &#8211; uns mais que outros. A solubilidade de um sal não é algo simples de se determinar: devemos calculá-la experimentalmente, adicionando, em um béquer,
+                        água e sal para analisá-la. Os dados são obtidos por meio de experimentos que ocorrem à temperatura ambiente (25
+                        <simbolos>°</simbolos>
+                        C), uma vez que a temperatura influencia na solubilidade de um sal. Podemos simplificar esses dados organizando-os em uma tabela que traz uma regra geral para a solubilidade dos sais de acordo com sua composição química. Alguns cátions e ânions dão ao
+                        sal a característica de ser solúvel em água.
+                        <exercicios_linhas></exercicios_linhas>
+                    </p>
+                    <img src="./assets/img/22.png" alt="imagem" class="img-md-1">
+                    <p class="general-text">Não é comum falarmos em &#8220;força&#8221; de sais, porque, do ponto de vista prático, é mais importante saber sua solubilidade. Sais que são solúveis em água produzem muitos íons em solução aquosa e, assim, conduzem bem a corrente
+                        elétrica.
+                    </p>
+                    <div class="titulo1-section">
+                        <img src="./assets/icons/01_titulo1.svg">
+                        <h3 class="titulo1"> Aplicações no cotidiano </h3>
+                    </div>
+                    <p class="general-text">
+                        A seguir, temos exemplos de aplicações de alguns dos sais estudados.
+                    </p>
+                    <img src="./assets/img/juncao1.png" alt="imagem" class="img-full-width">
+                    <img src="./assets/img/juncao2.png" alt="imagem" class="img-full-width">
+                    <img src="./assets/img/juncao3.png" alt="imagem" class="img-full-width">
+                    <img src="./assets/img/juncao4.png" alt="imagem" class="img-full-width">
+                    <img src="./assets/img/juncao5.png" alt="imagem" class="img-full-width">
+                </div>
+
+
+                <!-- Predicting -->
+                <div class="text-content-area">
+                    <div class=" flex-icon exercicios applying-knowledge">
+                        <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Dive in
+                    </div>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>1</b></p>
+                        <p class='exercicio-text'>O que são sais?</p>
+                    </div>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>2</b></p>
+                        <p class='exercicio-text'>Escreva a equação da reação de dissociação para os sais e classifique-os quanto à solubilidade em água:</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>K
+                            <sub>2</sub> SO
+                            <sub>4 </sub></li>
+                        <li> Ca
+                            <sub>3</sub> (PO
+                            <sub>4</sub> )
+                            <sub>2  </sub></li>
+                        <li>FeCO
+                            <sub>3 </sub></li>
+                        <li>NH
+                            <sub>4</sub> CN
+                        </li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>3</b></p>
+                        <p class='exercicio-text'> Escreva as equações das reações de neutralização total para a obtenção dos sais do exercício 2, nomeando os ácidos e bases utilizados.</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> K
+                            <sub>2</sub> SO
+                            <sub>4  </sub></li>
+                        <li>Ca
+                            <sub>3</sub> (PO
+                            <sub>4</sub> )
+                            <sub>2  </sub></li>
+                        <li>FeCO
+                            <sub>
+                                3</li>
+                                <li> NH
+                                  <sub>4</sub> CN
+                        </li>
+                    </ol>
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>4</b></p>
+                        <p class='exercicio-text'>Complete as equações para as reações de neutralização parcial abaixo e dê o nome dos sais formados:</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>H
+                            <sub>2</sub> SO
+                            <sub>4</sub>
+                            <simbolos>+</simbolos>
+                            LiOH
+                            <img src="./assets/img/105_FBU5C17.png" alt="imagem" class="img-littlee2"></li>
+                        <li> H
+                            <sub>3</sub> PO
+                            <sub>4</sub>
+                            <simbolos>+</simbolos>
+                            2 NaOH
+                            <img src="./assets/img/116_FBU5C17.png" alt="imagem" class="img-littlee2"></li>
+                        <li>H
+                            <sub>2</sub> CO
+                            <sub>3</sub>
+                            <simbolos>+</simbolos>
+                            KOH
+                            <img src="./assets/img/105_FBU5C17.png" alt="imagem" class="img-littlee2"></li>
+                        <li>HBrO
+                            <sub>3</sub>
+                            <simbolos>+</simbolos>
+                            Fe(OH)
+                            <sub>3</sub>
+                            <img src="./assets/img/105_FBU5C17.png" alt="imagem" class="img-littlee2"></li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>5</b></p>
+                        <p class='exercicio-text'><b>IFSul-RS 2017 </b> O ácido fosfórico é usado na fabricação de vidros, na tinturaria, na fabricação de fertilizantes fosfatados, nas indústrias alimentícias e nas farmacêuticas. Entretanto, uma aplicação do ácido fosfórico que
+                            chama bastante atenção é o seu uso em refrigerantes do tipo &#8220;cola&#8221;. A maioria dos refrigerantes no Brasil possui alto teor de ácido fosfórico, ficando com um pH
+                            <simbolos>&gt;</simbolos>
+                            3. Ele é utilizado principalmente como acidulante da bebida, baixando seu pH, regulando sua doçura, realçando o paladar e também atuando como conservante.</p>
+                    </div>
+                    <p class="exercicio-text ml">Industrialmente, o referido ácido é obtido a partir da seguinte reação de dupla troca: </p>
+                    <p class="exercicio-text ml"> H
+                        <sub>2</sub> SO
+                        <sub>4</sub>
+                        <simbolos>+</simbolos>
+                        Ca
+                        <sub>3</sub> (PO
+                        <sub>4</sub> )
+                        <sub>2</sub>
+                        <simbolos>&#10141;</simbolos>
+                        CaSO
+                        <sub>4</sub>
+                        <simbolos>+</simbolos>
+                        H
+                        <sub>3</sub> PO
+                        <sub>4</sub></p>
+                    <p class="exercicio-text ml">Observa-se que o ácido utilizado como reagente é o __________, e o sal formado como produto é o ___________________. </p>
+                    <p class="exercicio-text ml"> As palavras que preenchem corretamente as lacunas, de cima para baixo, são:</p>
+
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>ácido fosforoso &#8211; fosfito de cálcio.</li>
+                        <li>ácido fosfórico &#8211; fosfato de cálcio.</li>
+                        <li>ácido sulfúrico &#8211; sulfato de cálcio.</li>
+                        <li> ácido sulfuroso &#8211; sulfato de cálcio.</li>
+                    </ol>
+
+
+                    <div class='consolidando-saberes'>
+                        Consolidando saberes
+                    </div>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>1</b></p>
+                        <p class='exercicio-text'><b>UFU-MG </b> Adicione uma colher de sopa de açúcar ao molho de tomate. O açúcar é utilizado para tirar aquela acidez tão típica desses molhos. Você pode adicionar açúcar aos pratos preparados em casa com molhos de tomate processados,
+                            comprados no supermercado.</p>
+                    </div>
+                    <p class="quote-source">Fonte: receitapassoapasso.com.br.</p>
+                    <p class="exercicio-text ml">É muito comum receitas indicarem a adição de açúcar para diminuir a acidez no molho de tomate, como o texto acima mostra. <br> Com relação a essa prática, faça o que se pede:</p>
+
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> Explique qual a ação do açúcar no molho de tomate.</li>
+                        <li>Explique se existe alguma atividade química do açúcar para a redução da acidez do molho de tomate.</li>
+                        <li>Indique uma forma de reduzir a acidez no molho de tomate que não seja por aquela mostrada na receita.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>2</b></p>
+                        <p class='exercicio-text'> <b>UEPG-PR 2016</b> Analisando as equações apresentadas abaixo, assinale o que for correto.</p>
+                    </div>
+                    <p class="exercicio-text ml">H
+                        <sub>2</sub> SO
+                        <sub>4</sub>
+                        <simbolos>+</simbolos>
+                        2 KOH
+                        <simbolos>&#10141;</simbolos>
+                        X
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="exercicio-text ml">H
+                        <sub>2</sub> CO
+                        <sub>3</sub>
+                        <simbolos>+</simbolos>
+                        2 Y
+                        <simbolos>&#10141;</simbolos>
+                        (NH
+                        <sub>4</sub> )
+                        <sub>2</sub> CO
+                        <sub>3</sub>
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O
+                    </p>
+                    <p class="exercicio-text ml">H
+                        <sub>2</sub> S
+                        <simbolos>+</simbolos>
+                        2 NaOH
+                        <simbolos>&#10141;</simbolos>
+                        Z
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O
+                    </p>
+
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>01.</b></p>
+                        <p class='exercicio-text'>O nome correto da substância X é sulfeto de potássio.</p>
+                    </div>
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>02.</b></p>
+                        <p class='exercicio-text'> A fórmula correta da substância X é K
+                            <sub>2</sub> SO
+                            <sub>4</sub> .
+                        </p>
+                    </div>
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>04.</b></p>
+                        <p class='exercicio-text'> O nome correto da substância Z é sulfato de sódio.</p>
+                    </div>
+                    <div class="flex-exercicios">
+                        <p class='exercicio-text'><b>08.</b></p>
+                        <p class='exercicio-text'>A fórmula correta da substância Y é NH
+                            <sub>4</sub> OH.
+                        </p>
+                    </div>
+
+                    <div class="align-horizontal ml margin-top-1">
+                        <b>Soma:</b> <span class="fake-input-model"></span>
+                    </div>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>3</b></p>
+                        <p class="exercicio-text"><b>UFRGS 2020</b> Descobertas por Gustav Rose, em 1839, as perovskitas representam uma classe de materiais com características únicas que hoje estão revelando inúmeras e versáteis aplicações em uma ampla gama de dispositivos tecnológicos.
+                            Um tipo de perovskita muito utilizado em células solares é a baseada em haletos orgânico-inorgânicos, cuja fórmula geral é ABX
+                            <sub>3</sub> , em que A e B são cátions e X é um íon haleto.</p>
+                    </div>
+                    <p class="exercicio-text ml">O cátion A é orgânico, maior e mais eletropositivo que o cátion B, que é tipicamente um íon metálico bivalente.</p>
+                    <p class="exercicio-text ml">Um exemplo desse tipo de material é</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>CaTiO
+                            <sub>3</sub></li>
+                        <li> (CH
+                            <sub>3</sub> NH
+                            <sub>3</sub> )PbI
+                            <sub>3</sub></li>
+                        <li>(CH
+                            <sub>3</sub> NH
+                            <sub>3</sub> )FeO
+                            <sub>3</sub></li>
+                        <li> (CH
+                            <sub>3</sub> COO)SnBr
+                            <sub>3</sub></li>
+                        <li>CsPbCl
+                            <sub>3</sub></li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>4</b></p>
+                        <p class="exercicio-text"><b> UPE 2017</b></p>
+                    </div>
+                    <p class="exercicio-text ml"> A semeadura de nuvens atualmente é usada em todo o mundo para otimizar a precipitação, tanto de chuva quanto de neve e, ao mesmo tempo, inibir o granizo e a neblina. E ela funciona. Esse tipo de semeadura tem efeito ao espalhar partículas
+                        microscópicas, a fim de afetar o desenvolvimento da condensação, agindo como núcleos de gelo artificiais. Insolúveis na água, tais partículas funcionam como suporte para o crescimento dos cristais de gelo. Para tal propósito, utiliza-se
+                        frequentemente determinado sal. Ele possui uma estrutura cristalina similar à do gelo e forma um recife artificial onde os cristais podem crescer.</p>
+                    <p class="quote-source">Adaptado de: http://gizmodo.uol.com.br/semeadura-de-nuvens/</p>
+                    <p class="exercicio-text ml">Que sal é utilizado para semear as nuvens? </p>
+
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>AgI</li>
+                        <li>KI</li>
+                        <li>NaC
+                            <simbolos>&#8467;</simbolos>
+                        </li>
+                        <li>AgNO
+                            <sub>3 </sub></li>
+                        <li>KNO
+                            <sub>3</sub></li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>5</b></p>
+                        <p class="exercicio-text"><b>Cefet-MG 2018</b></p>
+                    </div>
+                    <p class="exercicio-text ml">Em 2011 uma carreta quetransportava 19 mil litros de soda cáustica (NaOH) tombou na BR-101 próximo ao Rio Pium em Natal/RN. Com a finalidade de minimizar os efeitos nocivos deste produto, a empresa responsável pelo veículo providenciou
+                        um caminhão com cerca de 20 mil litros de um líquido capaz de neutralizar a soda cáustica presente na área afetada.</p>
+                    <p class="quote-source">Disponível em &lt;http://www.tribunadonorte.com.br/noticia/ soda-caustica-vazou-para-orio-pium/181781&gt;. Acesso em: 10 set. 2017 (adaptado). </p>
+                    <p class="exercicio-text ml">O líquido que poderia ser utilizado nesse procedimento é o(a):</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>vinagre.</li>
+                        <li>água destilada.</li>
+                        <li>leite de magnésia.</li>
+                        <li> solução de bicarbonato de sódio.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>6</b></p>
+                        <p class="exercicio-text"><b>EsPCEx-SP 2018</b> Na ânsia pelo &#8220;elixir da longa vida&#8221;, por volta do século I, alquimistas descobriram acidentalmente a
+                            <i>Pólvora</i> , referenciada em textos de Alquimia pelos avisos quanto aos cuidados para não se misturarem certos materiais uns com os outros. A pólvora, mais conhecida desde o final do século XIX como pólvora negra, é uma
+                            mistura química que queima com rapidez. Foi extensamente utilizada como propelente em canhões e armas de fogo e atualmente ainda é empregada em artefatos pirotécnicos. Nitrato de potássio, enxofre e carvão (carbono) são os
+                            constituintes da pólvora negra. Sobre as espécies constituintes da pólvora negra afirma-se que:
+                            <b>Dados:</b> Número Atômico: K
+                            <simbolos>=</simbolos>
+                            19; N
+                            <simbolos>=</simbolos>
+                            7; O
+                            <simbolos>=</simbolos>
+                            8;</p>
+                    </div>
+                    <ol class="questao-altenativas ml" type="I">
+                        <li>o nitrato de potássio é classificado como uma base segundo a teoria de Arrhenius.</li>
+                        <li> a 25
+                            <simbolos>°</simbolos>
+                            C e 1 atm a variedade alotrópica mais estável do carbono é a grafite e a do enxofre é a rômbica.</li>
+                        <li>a fórmula do nitrato de potássio é KNO
+                            <sub>2</sub> .
+                        </li>
+                        <li> o enxofre é um metal radioativo que pertence à família 6A (16) da tabela periódica.</li>
+                        <li>o átomo de carbono (
+                            <sub>6</sub> C) estabelece 4 ligações químicas e possui a variedade alotrópica diamante, substância natural de alta dureza.</li>
+                    </ol>
+                    <p class="exercicio-text ml">Estão corretas apenas as afirmativas: </p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>I e IV.</li>
+                        <li>II e V.</li>
+                        <li> III, IV e V.</li>
+                        <li>I, II e V.</li>
+                        <li> II, III e IV.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>7</b></p>
+                        <p class="exercicio-text"><b>Udesc </b> Um estudante de Química obteve uma solução indicadora ácido-base, triturando no liquidificador algumas folhas de repolho roxo com água. Em seguida, ele dividiu a solução obtida em três tubos de ensaio (A, B e C) e
+                            no primeiro tubo adicionou uma pequena quantidade de vinagre (solução de ácido acético); no segundo alguns cristais de soda cáustica (NaOH), e no terceiro alguns cristais de sal para churrasco (NaC
+                            <simbolos>&#8467;</simbolos>
+                            ), obtendo o resultado conforme mostra o quadro:</p>
+                    </div>
+                    <img src="./assets/img/28.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">Se o estudante realizar outro experimento adicionando no tubo A KOH, no B, HNO
+                        <sub>3</sub> e, no C, KNO
+                        <sub>3</sub> , contendo a solução inicial extraída do repolho roxo, a coloração final respectivamente será:</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> roxa, verde, roxa.</li>
+                        <li>roxa, vermelha, verde.</li>
+                        <li> verde, roxa, vermelha.</li>
+                        <li> vermelha, verde, roxa.</li>
+                        <li>verde, vermelha, roxa.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>8</b></p>
+                        <p class="exercicio-text"><b>Acafe-SC 2016</b></p>
+                    </div>
+                    <p class="quote">Para resolver a questão a seguir considere o texto retirado do website da Universidade Federal de São Paulo (UNIFESP).</p>
+                    <p class="quote">[...] Junho de 2003. Um erro em uma indústria farmacêutica provoca intoxicação em dezenas de pessoas. Há uma morte confirmada e outras 15 suspeitas. A causa: um veneno chamado carbonato de bário. O Celobar, medicamento que causou a
+                        tragédia, deveria conter somente sulfato de bário. Mas, na tentativa de transformar o carbonato em sulfato, algum erro fez com que quase 15% da massa do Celobar comercializado fosse de carbonato de bário. </p>
+                    <p class="quote">Pacientes tomam sulfato de bário para que os órgãos de seu sistema digestório fiquem visíveis nas radiografias. É o chamado contraste. O problema é que os íons bário são muito tóxicos. Quando absorvidos causam vômito, cólicas, diarreia,
+                        tremores, convulsões e até a morte. Cerca de 0,5 g é dose fatal. Mas, se a toxicidade é do bário, por que o sulfato de bário não é perigoso e o carbonato de bário sim? </p>
+                    <p class="quote"> É que o sulfato de bário praticamente não se dissolve na água. Sua solubilidade em água é de apenas 1,0 · 10
+                        <sub>&#8211;5</sub> mol/L (sob temperatura de 25 °C). O que os pacientes ingerem é uma suspensão aquosa desse sal em que a maior parte dele não está dissolvida. Sem dissolução, não há, praticamente, dissociação do sal. É por isso
+                        que os íons bário não são liberados para serem absorvidos pelo organismo. Não há perigo.</p>
+                    <p class="quote">Ainda assim, só para garantir, essa suspensão costuma ser preparada em uma solução de sulfato de potássio, um sal bastante solúvel em água. A função desse sal é aumentar a concentração de íons sulfato. Desse modo, o equilíbrio da dissociação
+                        do sal é bem deslocado para a esquerda, diminuindo ainda mais a presença de íons bário na suspensão. Com o carbonato de bário é diferente. Apesar de pouco solúvel em água, ele reage com o ácido clorídrico do nosso estômago formando
+                        um sal solúvel, o cloreto de bário. Ao se dissolver, esse sal se dissocia, liberando íons bário para o organismo. O corpo absorve esses íons, e a intoxicação acontece. Triste é saber que uma simples gota de ácido clorídrico, misturada
+                        ao Celobar, teria evitado a tragédia. Essa gota produziria bolhas de gás carbônico, o que evidenciaria a presença do veneno no medicamento [...]. </p>
+                    <p class="quote-source">http://www2.unifesp.br/reitoria/residuos//curiosidades/casocelobar (data do acesso: 12/04/2016).</p>
+                    <p class="exercicio-text ml">Baseado nas informações fornecidas e nos conceitos químicos assinale a alternativa que contém as fórmulas das respectivas espécies químicas: carbonato de bário, sulfato de bário, sulfato de potássio, cloreto de bário, ácido clorídrico
+                        e gás carbônico.</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> BaCO
+                            <sub>3</sub> , BaSO
+                            <sub>4</sub> , K
+                            <sub>2</sub> SO
+                            <sub>4</sub> , BaCl
+                            <sub>2</sub> , HCl(aq), CO
+                            <sub>2</sub> (g).
+                        </li>
+                        <li> Ba
+                            <sub>2</sub> CO
+                            <sub>3</sub> , BaSO
+                            <sub>4</sub> , KSO
+                            <sub>4</sub> , BaCl
+                            <sub>2</sub> , HCl(aq), H
+                            <sub>2</sub> CO
+                            <sub>3</sub> (g).
+                        </li>
+                        <li>BaCO
+                            <sub>3</sub> , BaSO
+                            <sub>3</sub> , K
+                            <sub>2</sub> CO
+                            <sub>3</sub> , BaCl
+                            <sub>3</sub> , HClO
+                            <sub>3</sub> (aq), CO
+                            <sub>2</sub> (g).
+                        </li>
+                        <li>BaCO
+                            <sub>3</sub> , BaSO
+                            <sub>4</sub> , KSO
+                            <sub>4</sub> , BaCl
+                            <sub>2</sub> , HCl(aq), CO
+                            <sub>2</sub> (g).
+                        </li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>9</b></p>
+                        <p class="exercicio-text"> <b>UFRGS 2017</b> Os compostos inorgânicos encontram amplo emprego nas mais diversas aplicações. Na Coluna 1, abaixo, estão listados cinco compostos inorgânicos; na coluna 2, diferentes possibilidades de aplicação.</p>
+                    </div>
+                    <img src="./assets/img/colunaex.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">A sequência correta de preenchimento dos parênteses, de cima para baixo, é </p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>5 &#8211; 1 &#8211; 3 &#8211; 4.</li>
+                        <li>1 &#8211; 2 &#8211; 3 &#8211; 5.</li>
+                        <li>3 &#8211; 4 &#8211; 1 &#8211; 2.</li>
+                        <li>4 &#8211; 1 &#8211; 5 &#8211; 4.</li>
+                        <li>3 &#8211; 1 &#8211; 5 &#8211; 2.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>10</b></p>
+                        <p class="exercicio-text"> <b>PUC-MG 2016</b> O gesso, sulfato de cálcio anidro endurecido, é um sal muito utilizado em diversas áreas do conhecimento, tais como: medicina (imobilização de membros com fratura) e ornamentações, por exemplo. Sobre a função
+                            inorgânica sal, assinale a alternativa CORRETA.</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>Os sais são provenientes de uma reação entre um ácido e a água.</li>
+                        <li>Os hidrogenossais são provenientes de uma reação de neutralização parcial, ou seja, alguns hidrogênios ionizáveis não são neutralizados.</li>
+                        <li>Soluções salinas não são boas condutoras de eletricidade.</li>
+                        <li>A classificação de &#8220;sais hidratados&#8221; se justifica por serem na verdade soluções salinas.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>11</b></p>
+                        <p class="exercicio-text"> <b>Acafe-SC 2017</b> Baseado nos conceitos sobre funções químicas inorgânicas, analise as afirmações a seguir.</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="I">
+                        <li>O ácido fosforoso possui 3 hidrogênios ionizáveis.</li>
+                        <li>Os nomes dos seguintes ânions ClO
+                            <sub>&#8211;</sub> , NO
+                            <sub>2</sub>
+                            <sub>&#8211;</sub> , CrO
+                            <sub>4</sub>
+                            <sub>2&#8211;</sub> e P
+                            <sub>2</sub> O
+                            <sub>7</sub>
+                            <sub>2&#8211;</sub> são, respectivamente: hipoclorito, nitrito, cromato e pirofosfato.</li>
+                        <li> Água régia corresponde a uma mistura de 3 partes de ácido nítrico para 1 parte de ácido clorídrico.</li>
+                    </ol>
+                    <p class="exercicio-text ml">Assinale a alternativa correta. </p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> Todas as afirmações estão corretas.</li>
+                        <li> Todas as afirmações estão incorretas.</li>
+                        <li>Apenas I e III estão corretas.</li>
+                        <li>Apenas a II está correta.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>12</b></p>
+                        <p class="exercicio-text"><b>ITA-SP 2016</b> Assinale a opção que apresenta o sal solúvel em água a 25
+                            <simbolos>°</simbolos>
+                            C.</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>CaSO
+                            <sub>4</sub> .
+                        </li>
+                        <li> PbCl
+                            <sub>2</sub> .
+                        </li>
+                        <li>Ag
+                            <sub>2</sub> CO
+                            <sub>3</sub> .
+                        </li>
+                        <li>Hg
+                            <sub>2</sub> Br
+                            <sub>2</sub> .
+                        </li>
+                        <li> FeBr
+                            <sub>3</sub> .
+                        </li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>13</b></p>
+                        <p class="exercicio-text"> <b>Uerj 2017</b> Para realização de movimentos de ginástica olímpica, os atletas passam um pó branco nas mãos, constituído principalmente por carbonato de magnésio. Em relação a esse composto, apresente sua fórmula química, sua
+                            função química inorgânica e o número de oxidação do magnésio. Nomeie, também, a ligação interatômica que ocorre entre o carbono e o oxigênio.</p>
+                    </div>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>14</b></p>
+                        <p class="exercicio-text"><b>FCMMG 2017</b> Medicamentos homeopáticos baseiam-se no princípio Hipocrático
+                            <i>&#8220;similia similibus curantur&#8221;</i> , ou seja, semelhante cura semelhante, ao passo que, na medicina tradicional, a cura é baseada no princípio Hipocrático
+                            <i>&#8220;contraria contrariis&#8221;</i> , com medicamentos contrários. Baseando-se nessas informações, indique o medicamento que
+                            <b>NÃO é utilizado segundo o princípio homeopático</b> (semelhante à doença):</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>Bicarbonato de sódio (sal derivado de ácido fraco e base forte), usado no tratamento de azia estomacal.</li>
+                        <li><i>Coffea cruda</i> (café), cujo princípio ativo cafeína é um estimulante do SNC, usado no tratamento de insônia.</li>
+                        <li>Silícea (mineral contendo SiO
+                            <sub>2</sub> , conhecido como cimento), usado no tratamento de deficiência constitucional.</li>
+                        <li><i>Carbo vegetalis</i> (carvão vegetal com capacidade de absorver odores), usado para problemas de hálito fétido.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>15</b></p>
+                        <p class="exercicio-text"><b>Unisa-SP 2016</b> Um time de futebol encomendou, junto a um fabricante de fogos de artifício, alguns rojões que, no momento da explosão, iluminem o céu com as cores do time, verde e vermelho. O fabricante tinha à sua disposição
+                            os seguintes sais para serem misturados à pólvora: sulfato de sódio, sulfato de cobre(II), nitrato de estrôncio e nitrato de potássio. A tabela apresenta as cores das chamas obtidas na queima de alguns sais.</p>
+                    </div>
+
+                    <img src="./assets/img/29.png" alt="imagem" class="img-md">
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>Com base na tabela, determine quais sais, dentre os disponíveis para o fabricante, deverão ser utilizados na confecção dos rojões encomendados.</li>
+                        <li>Considerando que a pólvora é formada por carbono (carvão), enxofre e nitrato de potássio e que os combustíveis dessa mistura são apenas os compostos covalentes, escreva as fórmulas moleculares dos produtos obtidos na combustão
+                            completa da pólvora.</li>
+                    </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+                <!-- fim -->
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

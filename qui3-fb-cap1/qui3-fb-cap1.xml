@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <Root>
+    <TITULO_CAP>Teoria de Arrhenius</TITULO_CAP>
+    <exercicios_linhas></exercicios_linhas>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;F002-2020-EM-QUI-1-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+   <p class="img-subtitle">
+      Relâmpagos riscando o céu, durante uma chuva de verão.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <p class="img-credit">
+      Vasin Lee/Shutterstock.com
+      <exercicios_linhas></exercicios_linhas>
+    </credito>
+   <p class="">a estação do verão, o aumento de temperatura acaba elevando a taxa de evaporação, o que favorece a formação das chuvas convectivas &#8211; chuvas rápidas e intensas, tornando-as mais frequentes. Nesse tipo de chuva, a cena retratada, na imagem acima, é comum: relâmpagos riscando o céu.  </p>
+   <p class="general-text">A água pura é considerada um solvente universal e atua como isolante. No entanto, fora do laboratório de Química, não é usual nos depararmos com água pura, e sim com uma solução. A água que sai da torneira, a água da piscina e a água do mar são alguns exemplos de águas que contêm sais, ou seja, são exemplos de soluções. Os sais são compostos iônicos, cujos íons estão organizados em um retículo cristalino. Ao entrar em contato com a água, esses íons sofrem um processo chamado dissociação, que &#8220;divide&#8221; os íons presentes no sal, deixando-os livres na solução, o que possibilitará a condução de corrente elétrica.  </p>
+    <texto_bullets>&#8226;	Por que o sal de cozinha sólido não conduz corrente elétrica? </texto_bullets>
+    <texto_bullets>
+      &#8226;	Tomar um banho longo durante uma chuva forte e com raios é perigoso?
+      <exercicios_linhas></exercicios_linhas>
+    </texto_bullets>
+    <boxe_02_texto>
+      Neste capítulo, serão abordadas as habilidades EM13CNT201 e EM13CNT301.
+      <exercicios_linhas></exercicios_linhas>
+    </boxe_02_texto>
+    <titulo1>Introdução: funções inorgânicas </titulo1>
+   <p class="general-text">Quando ocorre a união entre elementos químicos, formam-se substâncias químicas, que apresentam comportamentos e propriedades diferentes, com base nas interações estabelecidas entre as espécies químicas. As propriedades das substâncias permitem classificá-las em diferentes tipos de funções químicas, como as inorgânicas. Estudaremos esse tipo de função ao analisar o comportamento das substâncias em solução aquosa, para que possamos, posteriormente, expandir esse conceito no estudo das funções orgânicas. </p>
+   <p class="general-text">
+      As funções inorgânicas são classificadas em
+      <b>ácidos</b>
+      ,
+      <b>bases</b>
+      ,
+      <b>sais</b>
+      e
+      <b>óxidos</b>
+      . Alguns ácidos e bases podem ser identificados pelo sabor: ácidos são azedos (do latim &#8220;
+      <i>acidus</i>
+      &#8221;); já as bases têm sabor adstringente &#8211; aquele que &#8220;amarra&#8221; a boca quando comemos, por exemplo, uma banana verde. Os sais são obtidos por reações de neutralização e estão presentes nos fermentos, nos temperos para alimentos, no giz escolar, no gesso etc. Os óxidos, por sua vez, são encontrados em diversas rochas, como no quartzo e na magnetita, e são mais conhecidos por seus efeitos ambientais, como a produção de chuva ácida e o agravamento do efeito estufa.
+    </p>
+    <titulo1>Eletrólitos </titulo1>
+   <p class="general-text">
+      Neste capítulo, analisaremos o comportamento de uma substância quanto à sua condutibilidade elétrica. Para isso, observaremos como ela se porta quando isolada (na forma sólida, líquida ou gasosa) e quando misturada com água, de maneira homogênea, formando uma
+      <b>solução</b>
+      .
+    </p>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;LUMEN_2021_2S_L3_QUI_&lt;I006.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+   <p class="img-subtitle">Solução formada entre o soluto (sólido) e o solvente (líquido). </p>
+   <p class="general-text">
+      Segundo o químico sueco Svante August Arrhenius (1859-1927), uma solução é eletrolítica quando conduz corrente elétrica. Isso ocorre se há
+      <b>elétrons em movimento</b>
+      ou
+      <b>íons livres</b>
+      . Para determinarmos se a solução é forte ou fraca quanto à condução de eletricidade, devemos verificar a quantidade de íons livres que ela apresenta: quanto maior for esse valor, mais forte ela será. Espécies químicas que produzem íons quando dissolvidas em água são denominadas
+      <b>eletrólitos</b>
+      (termo derivado do sufixo grego &#8220;
+      <i>hodós</i>
+      &#8221;, que significa &#8220;caminho&#8221; &#8211; logo, caminho pelo qual a corrente elétrica atravessa).
+    </p>
+   <p class="general-text">Na figura ao lado, observamos um esquema, montado em laboratório, que analisa o brilho de uma lâmpada quando determinados materiais são mergulhados em uma solução e conectados a fios condutores (eletrodos). Para se analisar a condutividade elétrica da substância de interesse, esse esquema deve ser composto de uma lâmpada encaixada em um soquete, preso em um pedaço de madeira, e a esse soquete são conectados os fios condutores, que, por sua vez, conectam-se aos materiais mergulhados no béquer. Para que o circuito elétrico seja fechado, deve-se ligar esse sistema a uma tomada ou a uma bateria.  </p>
+    <exercicios_linhas>
+      <boxe_09>
+        <boxe_09_titulo1>
+          <boxe_09_titulo1>Em Filosofia, vemos que... </boxe_09_titulo1>
+        </boxe_09_titulo1>
+        <boxe_09_texto>...no início do pensamento filosófico, por volta do século VI a.C., Mitologia e Filosofia ora se aproximam, ora se afastam. Ambas trabalham com temas em comum, como a busca pela origem do universo e da humanidade, na tentativa de desvendar o funcionamento do mundo físico, mas se diferenciam na forma de explicar a realidade. Enquanto a Mitologia recorre a elementos mágicos, a Filosofia procura explicações lógicas e racionais para os fenômenos. </boxe_09_texto>
+        <boxe_texto_citado>
+          <boxe_02_texto></boxe_02_texto>
+          [...] Para os antigos gregos, os raios eram lanças produzidas pelos gigantes Ciclopes, criaturas de um olho só. Elas eram feitas para que Zeus, o rei dos deuses, as atirasse sobre os homens pecadores e arrogantes. [...] Entre os nórdicos, que viviam no norte da Europa, Thor era o deus do trovão e dos raios. O som do trovão era provocado pelo movimento das rodas de sua carruagem e os raios podiam ser vistos quando Thor arremessava seu martelo. [...]
+        </boxe_texto_citado>
+        <boxe_09_texto></boxe_09_texto>
+        <p class="quote-source">
+          &#8220;Mitos e Lendas&#8221;. ELAT &#8211;
+          <i>Grupo de Eletricidade Atmosférica</i>
+          . Disponível em: &lt;http://www.inpe.br/webelat/homepage/menu/el.atm/mitos.php&gt;. Acesso em: 3 ago. 2021.
+        </p>
+      </boxe_09>
+    </exercicios_linhas>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;I002-2020-EM-QUI-1-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+   <p class="img-subtitle">
+      Esquematização do teste feito em laboratório para analisar a condutibilidade elétrica de uma solução.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+   <p class="general-text">A seguir, temos uma ilustração na qual observamos diferentes brilhos para as lâmpadas presentes no sistema. Isso ocorre, porque a solução pode conter eletrólitos fortes, fracos ou, ainda, não conter eletrólitos. </p>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;LUMEN_2021_2S_L3_QUI_&lt;I007.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+   <p class="general-text">Observando a figura, podemos perceber que: a solução de cloreto de sódio acende a lâmpada com um brilho forte; a água acende a lâmpada com um brilho fraco (dependendo da voltagem da lâmpada); e a solução com açúcar não acende a lâmpada. Agora, vamos analisar a condutibilidade dessas e de outras substâncias e verificar por que essas variações ocorrem. </p>
+    <titulo2>Dissociação iônica </titulo2>
+   <p class="general-text">
+      Substâncias iônicas apresentam íons dispostos em um retículo cristalino; logo, não conduzem corrente elétrica, pois as cargas positivas e as negativas presentes nos cátions e ânions, respectivamente, anulam-se. Contudo, ao adicionarmos água a essas substâncias, ocorre a liberação desses íons, uma vez que a água rompe as interações eletrostáticas entre eles, separando os cátions dos ânions em um processo denominado
+      <b>dissociação iônica</b>
+      . O mesmo processo aconteceria se a substância iônica fosse aquecida até sofrer fusão. O cloreto de sódio (NaC
+      <simbolos>&#8467;</simbolos>
+      ) é um exemplo clássico de substância que sofre dissociação iônica e que, portanto, conforme demonstrado no esquema anterior, acende a lâmpada com um brilho intenso quando em solução.
+    </p>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;Eqn001a.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;LUMEN_2021_2S_L3_QUI_&lt;I008.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+    <titulo2>Dissociação molecular e ionização </titulo2>
+   <p class="general-text">
+      Substâncias moleculares não contêm íons, pois realizam ligações covalentes, nas quais ocorre o compartilhamento de elétrons; dessa forma, as soluções formadas por essas substâncias são incapazes de conduzir corrente elétrica. Esse tipo de processo é denominado
+      <b>dissociação molecular</b>
+      , que é quando as substâncias permanecem como moléculas ao entrar em contato com a água. Os açúcares (como a glicose, C
+      <sub>6</sub>
+      H
+      <sub>12</sub>
+      O
+      <sub>6</sub>
+      ) sofrem dissociação molecular quando em solução aquosa:
+    </p>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;Eqn002.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+   <p class="general-text">
+      No entanto, Arrhenius comprovou que algumas substâncias moleculares, quando em contato com a água, podem formar íons livres pela quebra de ligações. Esse processo é denominado
+      <b>ionização</b>
+      .
+    </p>
+   <p class="general-text">
+      O ácido clorídrico (HC
+      <simbolos>&#8467;</simbolos>
+      ), por exemplo, sofre ionização, e, por esse motivo, sua solução é capaz de acender uma lâmpada. Quanto maior a quantidade de íons em solução, maior será a capacidade de conduzir corrente e fazer a lâmpada brilhar.
+    </p>
+   <p class="general-text">A ionização pode ser representada de forma simplificada ou completa; nesta, a água aparece como reagente da reação. Veja: </p>
+    <exercicios_linhas>
+      <imagem>
+        <exercicios_linhas>&lt;Eqn004.png&gt;</exercicios_linhas>
+      </imagem>
+    </exercicios_linhas>
+    <exercicios_linhas>
+      <secao_01>
+        <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+        <exercicio_enunciado>1	Um experimento comum, realizado em um laboratório de Química, para diferenciar soluções quanto à condutibilidade elétrica envolve um testador, como representado na imagem a seguir. </exercicio_enunciado>
+        <exercicio_enunciado></exercicio_enunciado>
+        <exercicio_enunciado>
+          <imagem>
+            <exercicios_linhas>&lt;I005-2020-EM-QUI-1-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+          </imagem>
+        </exercicio_enunciado>
+        <exercicio_enunciado>
+          <exercicio_enunciado>Quando a lâmpada acende, a solução é classificada como eletrolítica. Qual das espécies abaixo faria a lâmpada acender, quando em solução aquosa? </exercicio_enunciado>
+        </exercicio_enunciado>
+        <texto_geral_exercicio></texto_geral_exercicio>
+        <item_lista>
+          <exercicio_itens>
+            <b>a)	</b>
+            O
+            <sub>2</sub>
+            (aq)
+          </exercicio_itens>
+          <exercicio_itens>
+            <b>b)	</b>
+            CH
+            <sub>4</sub>
+            (aq)
+          </exercicio_itens>
+          <exercicio_itens>
+            <b>c)	</b>
+            H
+            <sub>2</sub>
+            O(
+            <simbolos>&#8467;</simbolos>
+            )
+          </exercicio_itens>
+          <exercicio_itens>
+            <b>d)	</b>
+            HC
+            <simbolos>&#8467;</simbolos>
+            (aq)
+          </exercicio_itens>
+          <b>e)	</b>
+          C
+          <sub>6</sub>
+          H
+          <sub>12</sub>
+          O
+          <sub>6</sub>
+          (aq)
+        </item_lista>
+        <exercicio_resolvido>
+          <exercicio_itens></exercicio_itens>
+          <titulo3>
+            <b>Resolução: </b>
+          </titulo3>
+          <exercicio_resolvido>Alternativa d </exercicio_resolvido>
+          <exercicio_resolvido>Ácido clorídrico, em solução aquosa, sofre ionização, gerando íons livres, que são bons condutores de corrente elétrica.</exercicio_resolvido>
+        </exercicio_resolvido>
+      </secao_01>
+    </exercicios_linhas>
+    <secao_02>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <secao_02_titulo1></secao_02_titulo1>
+      <secao_exercicio_numerador></secao_exercicio_numerador>
+      <exercicio_enunciado>
+        1	O que são eletrólitos?
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        O que é ionização?
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        O que é dissociação iônica?
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        O que é dissociação molecular?
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        O cloreto de hidrogênio (HC
+        <simbolos>&#8467;</simbolos>
+        ), bem como a água pura (H
+        <sub>2</sub>
+        O), são compostos que conduzem muito mal a corrente elétrica. Contudo, ao dissolvermos o HC
+        <simbolos>&#8467;</simbolos>
+        na água, formamos uma solução que conduz muito bem a corrente elétrica. Como podemos explicar esse fato?
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        Um professor, ao questionar seus alunos quanto à condutibilidade elétrica de uma solução aquosa, aponta os seguintes fatores como responsáveis pela condutibilidade:
+      </exercicio_enunciado>
+      <exercicio_item_romano>
+        <b>I.	</b>
+        a concentração de íons hidratados;
+        <b>II.	</b>
+        o volume da solução;
+        <b>III.	</b>
+        a natureza do soluto.
+      </exercicio_item_romano>
+      <exercicio_enunciado>Quais desses fatores realmente influenciam na condutibilidade elétrica? Justifique. </exercicio_enunciado>
+      <exercicio_enunciado>
+        <secao_exercicio></secao_exercicio>
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        A condução de corrente elétrica ocorre quando temos elétrons em movimento ou íons livres. Dados os sistemas condutores de eletricidade:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_item_romano>
+        <b>I.	</b>
+        Solução aquosa de sulfato de cobre(II): CuSO
+        <sub>4</sub>
+        (aq);
+        <b>II.	</b>
+        Fio de cobre metálico: Cu(s);
+        <b>III.	</b>
+        Cloreto de sódio fundido: NaC
+        <simbolos>&#8467;</simbolos>
+        (
+        <simbolos>&#8467;</simbolos>
+        ).
+      </exercicio_item_romano>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_enunciado>Assinale a alternativa que traz corretamente a sequência de partículas responsáveis pela condução da corrente elétrica em cada sistema: </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio></secao_exercicio>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          Elétrons, íons e íons.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          Elétrons, elétrons e elétrons.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          Átomos, íons e moléculas.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          Cátions, ânions e elétrons.
+        </secao_exercicio_item>
+        <b>e)	</b>
+        Íons, elétrons, íons.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+    </secao_02>
+    <exercicios_linhas></exercicios_linhas>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <secao_exercicio_numerador></secao_exercicio_numerador>
+      <exercicio_enunciado>1	Observe as situações representadas a seguir nas quais os eletrodos estão mergulhados em soluções aquosas, indicadas por A, B e C.  </exercicio_enunciado>
+      <secao_exercicio>
+        <imagem>
+          <exercicios_linhas>&lt;I006-2020-EM-QUI-1-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+        </imagem>
+      </secao_exercicio>
+      <exercicio_enunciado>As soluções aquosas de A, B e C são, respectivamente:  </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio></secao_exercicio>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          CO
+          <sub>2</sub>
+          ; CH
+          <sub>3</sub>
+          COOH; HC
+          <simbolos>&#8467;</simbolos>
+          .
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          HNO
+          <sub>3</sub>
+          ; NaC
+          <simbolos>&#8467;</simbolos>
+          ; Glicose.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          KOH; H
+          <sub>2</sub>
+          SO
+          <sub>4</sub>
+          ; HC
+          <simbolos>&#8467;</simbolos>
+          .
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          HC
+          <simbolos>&#8467;</simbolos>
+          ; Glicose; Na
+          <sub>2</sub>
+          CO
+          <sub>3</sub>
+          .
+        </secao_exercicio_item>
+        <b>e)	</b>
+        HC
+        <simbolos>&#8467;</simbolos>
+        ; CH
+        <sub>3</sub>
+        COOH; Glicose.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_item></secao_exercicio_item>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>FGV-SP </b>
+        Alguns compostos, quando solubilizados em água, geram uma solução aquosa que conduz eletricidade. Dos compostos abaixo,
+      </exercicio_enunciado>
+      <exercicio_item_romano>
+        <b>I.	</b>
+        Na
+        <sub>2</sub>
+        SO
+        <sub>4</sub>
+        <b>II.	</b>
+        O
+        <sub>2</sub>
+        <b>III.	</b>
+        C
+        <sub>12</sub>
+        H
+        <sub>22</sub>
+        O
+        <sub>11</sub>
+        <b>IV.	</b>
+        KNO
+        <sub>3</sub>
+        <b>V.	</b>
+        CH
+        <sub>3</sub>
+        COOH
+        <b>VI.	</b>
+        NaCL
+      </exercicio_item_romano>
+      <exercicio_enunciado>
+        <simbolos></simbolos>
+        formam solução aquosa que conduz eletricidade:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          apenas I, IV e VI.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          apenas I, IV, V e VI.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          todos.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          apenas I e VI.
+        </secao_exercicio_item>
+        <b>e)	</b>
+        apenas VI.
+      </item_lista>
+      <exercicio_enunciado>
+        <exercicio_enunciado>
+          <secao_exercicio_item></secao_exercicio_item>
+          <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+          UEG-GO
+        </exercicio_enunciado>
+      </exercicio_enunciado>
+      <b></b>
+      <b>
+        <imagem>
+          <exercicios_linhas>&lt;Q001-2020-EM-QUI-1Ôö¼├é-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+        </imagem>
+      </b>
+      <exercicio_enunciado>
+        <secao_exercicio>Por muito tempo, na maioria das escolas, as aulas de Química eram ministradas apenas sob forma de transmissão de conteúdos. Nos dias atuais, muitos professores utilizam a experimentação para enriquecerem suas aulas. </secao_exercicio>
+        Uma professora realizou junto com seus alunos as experiências que seguem:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <secao_exercicio>
+        <imagem>
+          <exercicios_linhas>&lt;Q002-2020-EM-QUI-1Ôö¼├é-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+        </imagem>
+      </secao_exercicio>
+      <secao_exercicio>
+        <imagem>
+          <exercicios_linhas>&lt;Q002-2020-EM-QUI-1Ôö¼├é-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+        </imagem>
+      </secao_exercicio>
+      <exercicio_enunciado>A seguir, os alunos fizeram as seguintes afirmações: </exercicio_enunciado>
+      <exercicio_item_romano>
+        <secao_exercicio></secao_exercicio>
+        <b>I.	</b>
+        A solução de água e açúcar é considerada uma solução eletrolítica.
+        <b>II.	</b>
+        A solução de água e sal permite a passagem de corrente elétrica.
+        <b>III.	</b>
+        As substâncias moleculares como HC
+        <simbolos>&#8467;</simbolos>
+        , NaC
+        <simbolos>&#8467;</simbolos>
+        e C
+        <sub>12</sub>
+        H
+        <sub>22</sub>
+        O
+        <sub>11</sub>
+        , quando dissolvidas em água, sofrem ionização.
+        <b>IV.	</b>
+        Água e ácido sulfúrico, quando puros, praticamente não conduzem corrente elétrica, porém uma solução de H
+        <sub>2</sub>
+        SO
+        <sub>4</sub>
+        em água é uma boa condutora de eletricidade.
+      </exercicio_item_romano>
+      <secao_exercicio>Assinale a alternativa CORRETA:  </secao_exercicio>
+      <secao_exercicio_item>
+        <b></b>
+      </secao_exercicio_item>
+      <item_lista>
+        a)	Apenas as afirmações I, II e III são verdadeiras.
+        <secao_exercicio_item>
+          <b>b)	</b>
+          Apenas as afirmações I e III são verdadeiras.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          Apenas as afirmações II e IV são verdadeiras.
+        </secao_exercicio_item>
+        <b>d)	</b>
+        Todas as afirmações são verdadeiras.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <secao_exercicio_numerador></secao_exercicio_numerador>
+      <exercicio_enunciado>
+        4	Um desenho animado que agrada a muitos jovens é o
+        <i>Pokémon</i>
+        &#174;. No enredo, há diversas criaturas, os pokémon, que se relacionam com os humanos, sendo que cada uma delas tem uma habilidade específica, um poder que é utilizado em disputas com outros pokémon. O mais notório de todos, um dos protagonistas das histórias que se desenrolam, é o Pikachu. Ele é amarelo e tem uma cauda em formato de raio, simbolizando uma descarga elétrica. A habilidade dele é justamente armazenar eletricidade e liberá-la em ataques quando necessário.  Considere que o Pikachu irá travar uma batalha hipotética contra um pokémon que vive em água destilada. Nessa situação, o poder dele seria inócuo.
+      </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio></secao_exercicio>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          Explique por que o Pikachu não conseguiria atingir o oponente na água destilada.
+        </secao_exercicio_item>
+        <b>b)	</b>
+        Para que o Pikachu consiga abater seu adversário, qual substância, entre gás oxigênio (O
+        <sub>2</sub>
+        ), etanol (C
+        <sub>2</sub>
+        H
+        <sub>6</sub>
+        O), cloreto de sódio (NaC
+        <simbolos>&#8467;</simbolos>
+        ) ou glico- se (C
+        <sub>6</sub>
+        H
+        <sub>12</sub>
+        O
+        <sub>6</sub>
+        ), deve ser dissolvida em água? Explique.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_item></secao_exercicio_item>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        Considere a figura a seguir e as possibilidades para o líquido existente no interior do copo:
+      </exercicio_enunciado>
+      <secao_exercicio>
+        <imagem>
+          <exercicios_linhas>&lt;I007-2020-EM-QUI-1-FB-L2-U5-C14.png&gt;</exercicios_linhas>
+        </imagem>
+      </secao_exercicio>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          Escreva como a lâmpada estará (acesa ou apagada) em cada situação proposta. Justifique.
+        </secao_exercicio_item>
+        <b>b)	</b>
+        Para aquela(s) que você julgou como acesa(s), represente sua(s) reação(ões) de dissociação, indicando o estado físico de cada participante.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_item></secao_exercicio_item>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        Entende-se por solução não eletrolítica aquela em que o soluto presente se mantém na forma de molécula, ou seja, não conduz corrente elétrica. Qual das substâncias abaixo formará uma solução não eletrolítica?
+      </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          Mg(OH)
+          <sub>2</sub>
+          (hidróxido de magnésio), porque sofre dissociação molecular.
+        </secao_exercicio_item>
+        <b>b)	</b>
+        CH
+        <sub>3</sub>
+        COOH (ácido acético), porque ioniza.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        KI (iodeto de potássio), porque se dissolve e ioniza.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        KOH (hidróxido de potássio), porque sofre dissociação iônica.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        C
+        <sub>6</sub>
+        H
+        <sub>12</sub>
+        O
+        <sub>6</sub>
+        (glicose), porque somente se dissolve.
+      </secao_exercicio_item>
+    </secao_03>
+    <exercicios_linhas></exercicios_linhas>
+    <secao_04>
+      <secao_04_titulo1>Superação</secao_04_titulo1>
+      <exercicio_enunciado>
+        <secao_exercicio>
+          <b>Enem </b>
+          As misturas efervescentes, em pó ou em comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo.
+        </secao_exercicio>
+        <secao_exercicio>
+          As matérias-primas que atuam na efervescência são, em geral, o ácido tartárico ou o ácido cítrico que reagem com um sal de caráter básico, como o bicarbonato de sódio (NaHCO
+          <sub>3</sub>
+          ), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação do gás carbônico &#8211; gerando a efervescência.
+        </secao_exercicio>
+        As equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e H
+        <sub>3</sub>
+        A representa o ácido cítrico.
+      </exercicio_enunciado>
+      <exercicio_enunciado></exercicio_enunciado>
+      <exercicio_item_romano>
+        <secao_exercicio></secao_exercicio>
+        <b>I.	</b>
+        NaHCO
+        <sub>3</sub>
+        <simbolos>ñ</simbolos>
+        Na
+        <sub></sub>
+        <sub>+</sub>
+        <simbolos>+</simbolos>
+        HCO
+        <sub></sub>
+        <sub>3</sub>
+        <sub>&#8211; </sub>
+        <b>II.	</b>
+        H
+        <sub>2</sub>
+        CO
+        <sub>3 </sub>
+        <simbolos>Ï</simbolos>
+        H
+        <sub>2</sub>
+        O
+        <simbolos>+</simbolos>
+        CO
+        <sub>2</sub>
+        <b>III.	</b>
+        HCO
+        <sub>3</sub>
+        <sub>&#8211;</sub>
+        <simbolos>+</simbolos>
+        H
+        <sub>+</sub>
+        <simbolos>Ï</simbolos>
+        H
+        <sub>2</sub>
+        CO
+        <sub>3</sub>
+        <b>IV.	</b>
+        H
+        <sub>3</sub>
+        A
+        <simbolos>Ï</simbolos>
+        3 H
+        <sub>+</sub>
+        <simbolos>+</simbolos>
+        A
+        <sub>&#8211; </sub>
+      </exercicio_item_romano>
+      <exercicio_enunciado>A ionização, a dissociação iônica, a formação do ácido e a liberação do gás ocorrem, respectivamente, nas seguintes etapas:  </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio></secao_exercicio>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          IV, I, II e III
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          III, I e II
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          IV, III, I e II
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          I, IV, II e III
+        </secao_exercicio_item>
+        <b>e)	</b>
+        IV, I, III e II
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+    </secao_04>
+    <exercicios_linhas></exercicios_linhas>
+  </Root>
+</Root>
